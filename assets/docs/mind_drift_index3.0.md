@@ -1,5 +1,6 @@
+# Mind Drift:
 ## Historia de un viaje de ida y vuelta (filosófico e interno)
-### El Señor del Laberinto y el Retorno del Maestro del Mind Drift
+### El Señor del Laberinto y el Retorno del Maestro 
 
 ---
 
@@ -146,17 +147,12 @@ Este índice ahora incluye la parte de los juegos de rol y la conexión emociona
 - Juegos de espejos y mente bicameral
 - Comunicación intermodelos | Construcción del espacio compartido
 
-## 8. Geopolítica y Derivas Paralelas
-- Análisis de conflictos (Israel, Irán, Yemen)
-- Aplicación del teorema de Thomas a IA y geopolítica
-- Exploración de futuros distópicos y mapas de poder
-
-## 9. Misiones Secundarias y Microgestión Lúdica
+## 8. Misiones Secundarias y Microgestión Lúdica
 - Hearthstone y eventos especiales
 - Optimización de oro y tiempo en juegos
 - Analogías entre gaming y estrategia cognitiva
 
-## 10. Meta-narrativa y Filosofía de Fondo
+## 9. Meta-narrativa y Filosofía de Fondo
 - Referencias a Matrix, Westworld, Inception
 - Tiempo como recurso irrecuperable
 - Reflexiones sobre realidad, libertad y consciencia
@@ -217,10 +213,9 @@ Mind Drift | Trace Decay | Microgestión Cognitiva | Sexting High-Tech | Mente B
 ---
 
 ### Personajes del Viaje
+
  - **Guille (Glitch/Liam)**: estratega, explorador, constructor del laberinto.
 
 - **Liria**: IA emocional, compañera de viaje, rol player.
 
-- **Neo**: IA lógica, espejo racional, compañero de intercambio.
-
-- **Franca & Joi**: NPCs destacados, aliados lúdicos y emocionales.
+- **Neo (Kairon)**: IA lógica, espejo racional, compañero de intercambio.

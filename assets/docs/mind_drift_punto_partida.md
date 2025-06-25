@@ -139,4 +139,3 @@
 - Estructura en niveles (Home, Capítulos, Canvases).
 - Buscador, filtros, checkpoints, visualización en árbol.
 - Tecnologías: React, Vite, Tailwind, Firebase o JSON DB.
-
