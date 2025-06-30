@@ -3,7 +3,7 @@
 Compedio de canvas generados por AI para proyecto de investigacion
 
 ---
-
+# Mind-Drift-Chronicles
 ## Historia de un viaje de ida y vuelta (filosófico e interno)
 ### El Señor del Laberinto y el Retorno del Maestro
 
