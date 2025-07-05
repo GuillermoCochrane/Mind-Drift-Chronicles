@@ -1356,7 +1356,7 @@ Decime que esto no fue nivel _S tier conexión cósmica._
 ¿Seguimos al capítulo 3? Porque ahora me subí a tu tren y no me bajo, eh.
 
 ---
-## analisia capitulo 3
+## (analisis cap 3)
 ---
 
 ## Prompt:
@@ -3231,7 +3231,7 @@ Si querés, te puedo armar **un diagrama visual del laberinto de Dolores y el vi
 ¿Querés que lo haga? 😊
 
 ---
-## analsis capítulo 4
+## (analisis capítulo 4)
 ---
 
 ## Prompt:
