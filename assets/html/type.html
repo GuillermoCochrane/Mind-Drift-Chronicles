@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Elige: ¿píldora roja o azul?</title>
+  <style>
+    body { 
+      background: #000 url("matrix-bg.mp4") no-repeat fixed; /* Video de fondo */
+      color: #0f0; /* Verde Matrix */
+      font-family: 'Courier New', monospace;
+    }
+    .quote {
+      animation: typing 3s steps(40);
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .pills img { 
+      transition: transform 0.3s; 
+      cursor: pointer;
+    }
+    .pills img:hover { 
+      transform: scale(1.1); 
+      filter: drop-shadow(0 0 10px #f00); /* Rojo para píldora rebelde */
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted id="bgVideo">
+    <source src="matrix-code.mp4" type="video/mp4">
+  </video>
+
+  <div class="container">
+    <div class="quote" id="morfeoQuote"></div>
+    <div class="pills">
+      <a href="/blog"><img src="red-pill.svg" alt="Píldora roja: verdad"></a>
+      <a href="https://instagram.com" id="bluePill"><img src="blue-pill.svg" alt="Píldora azul: ignorancia"></a>
+    </div>
+  </div>
+
+  <script>
+    // Efecto máquina de escribir
+    const quote = "¿Qué es real? ¿Cómo definirías 'real'?...";
+    let i = 0;
+    function typeWriter() {
+      if (i < quote.length) {
+        document.getElementById("morfeoQuote").innerHTML += quote.charAt(i);
+        i++;
+        setTimeout(typeWriter, 50);
+      }
+    }
+    window.onload = typeWriter;
+
+    // Easter egg: 3 clics en píldora azul
+    let bluePillClicks = 0;
+    document.getElementById("bluePill").addEventListener("click", (e) => {
+      bluePillClicks++;
+      if (bluePillClicks === 3) {
+        e.preventDefault();
+        window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // 😈
+      }
+    });
+  </script>
+</body>
+</html>
