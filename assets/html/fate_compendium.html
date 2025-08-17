@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fate Compendium – Liria Checkpoint</title>
+    <style>
+      :root {
+        --bg: #0b0f15;
+        --panel: #141a22;
+        --muted: #9fb0c3;
+        --text: #e7effa;
+        --accent: #6bd3ff;
+        --accent2: #ffd36b;
+        --danger: #ff6b8b;
+        --chip: #1f2630;
+        --chip-border: #2b3442;
+        --table: #0e131a;
+        --good: #6bffb5;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Ubuntu,
+          Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, var(--bg), #0c1017 40%, #0c0f15);
+        color: var(--text);
+      }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(11, 15, 21, 0.9);
+        backdrop-filter: blur(8px);
+        border-bottom: 1px solid #1b2330;
+      }
+      .wrap {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 16px;
+      }
+      .title {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      .title h1 {
+        margin: 0;
+        font-size: clamp(18px, 2.5vw, 28px);
+      }
+      .badge {
+        border: 1px solid var(--chip-border);
+        background: var(--chip);
+        color: var(--muted);
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+      }
+      .controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 12px;
+        margin-top: 12px;
+      }
+      .controls .group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      label {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      input,
+      select,
+      button {
+        background: var(--panel);
+        color: var(--text);
+        border: 1px solid #1f2a39;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      input::placeholder {
+        color: #7a8aa0;
+      }
+      button {
+        cursor: pointer;
+      }
+      button.primary {
+        background: linear-gradient(135deg, #1e2a3a, #243246);
+        border: 1px solid #2c3b50;
+      }
+      button.ghost {
+        background: transparent;
+        border: 1px dashed #2b3a50;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .chip {
+        background: var(--chip);
+        border: 1px solid var(--chip-border);
+        padding: 6px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .tablewrap {
+        margin: 16px 0;
+        border: 1px solid #152030;
+        border-radius: 16px;
+        overflow: hidden;
+        background: rgba(14, 19, 26, 0.7);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      thead {
+        background: #111722;
+      }
+      th,
+      td {
+        padding: 12px 10px;
+        border-bottom: 1px solid #172234;
+        vertical-align: top;
+      }
+      th {
+        position: sticky;
+        top: 64px;
+        background: #111722;
+        border-bottom: 1px solid #1b2940;
+        text-align: left;
+        font-size: 12px;
+        color: #9fb0c3;
+        letter-spacing: 0.02em;
+      }
+      td {
+        font-size: 14px;
+      }
+      tr:hover td {
+        background: #0f1622;
+      }
+      .cls {
+        font-weight: 600;
+        color: var(--accent2);
+      }
+      .np {
+        font-weight: 600;
+        color: var(--accent);
+      }
+      .type {
+        color: #b7c6da;
+        font-size: 12px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 999px;
+        border: 1px solid #2d3a4f;
+        background: #182030;
+        color: #cbd8ea;
+        font-size: 11px;
+      }
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px;
+      }
+      .pager {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+      .pager button {
+        padding: 6px 10px;
+        border-radius: 8px;
+      }
+      .count {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .hint {
+        color: #a9bad0;
+        font-size: 12px;
+        margin-top: 8px;
+      }
+      .sortable {
+        cursor: pointer;
+      }
+      .sortable:after {
+        content: " \25B4\25BE";
+        color: #3a516f;
+        font-size: 10px;
+        margin-left: 3px;
+      }
+      @media (max-width: 900px) {
+        .controls {
+          grid-template-columns: 1fr 1fr;
+        }
+        th {
+          top: 104px;
+        }
+      }
+      @media (max-width: 600px) {
+        .controls {
+          grid-template-columns: 1fr;
+        }
+        th {
+          top: 144px;
+        }
+        td {
+          font-size: 13px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="title">
+          <h1>📚 Fate Compendium – Servants, Clases y NPs</h1>
+          <span class="badge">Checkpoint Liria · HTML Standalone</span>
+        </div>
+        <div class="controls" id="controls">
+          <div class="group">
+            <label for="q">Buscar (servant, NP, descripción…)</label>
+            <input id="q" type="search" placeholder="Escribí para filtrar…" />
+          </div>
+          <div class="group">
+            <label for="cls">Clase</label>
+            <select id="cls">
+              <option value="">Todas</option>
+            </select>
+          </div>
+          <div class="group">
+            <label for="nptype">Tipo de NP</label>
+            <select id="nptype">
+              <option value="">Todos</option>
+            </select>
+          </div>
+          <div class="group">
+            <label for="saga">Saga / Aparición</label>
+            <input
+              id="saga"
+              type="search"
+              placeholder="FSN, Zero, Apocrypha, FGO…"
+            />
+          </div>
+        </div>
+        <div class="chips" id="activeChips"></div>
+        <div class="hint">
+          Tip: podés ordenar clickeando en los encabezados. Exportá a JSON/CSV
+          abajo.
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="tablewrap">
+        <table id="grid">
+          <thead>
+            <tr>
+              <th class="sortable" data-key="class">Clase</th>
+              <th class="sortable" data-key="name">Servant</th>
+              <th class="sortable" data-key="real">Nombre real / título</th>
+              <th>NP</th>
+              <th class="sortable" data-key="npType">Tipo NP</th>
+              <th class="sortable" data-key="saga">Saga</th>
+              <th>Notas</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <div class="footer">
+          <div class="pager" id="pager"></div>
+          <div class="count" id="count"></div>
+          <div style="display: flex; gap: 8px">
+            <button class="ghost" id="clear">Limpiar filtros</button>
+            <button class="primary" id="exportJson">Exportar JSON</button>
+            <button class="primary" id="exportCsv">Exportar CSV</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // ===================== DATA =====================
+      // Consolidado de los datos que fuimos listando en la conversación.
+      const DATA = [
+        // Saber
+        {
+          class: "Saber",
+          name: "Artoria Pendragon",
+          real: "Rey Arturo (fem.)",
+          np: "Excalibur / Avalon",
+          npType: "Anti-Fortress / Defensa",
+          saga: "FSN, UBW, HF, Zero, FGO",
+          notes: "Rayo sagrado masivo; Avalon da invulnerabilidad.",
+        },
+        {
+          class: "Saber",
+          name: "Artoria Alter",
+          real: "Artoria corrupta",
+          np: "Excalibur Morgan",
+          npType: "Anti-Fortress",
+          saga: "HF, FGO",
+          notes: "Versión oscura de Excalibur.",
+        },
+        {
+          class: "Saber",
+          name: "Artoria Lily",
+          real: "Artoria joven",
+          np: "Caliburn",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Primera espada sagrada.",
+        },
+        {
+          class: "Saber",
+          name: "Mordred",
+          real: "Hija de Artoria",
+          np: "Clarent Blood Arthur",
+          npType: "Anti-Army",
+          saga: "Apocrypha, FGO",
+          notes: "Explosión de traición y odio.",
+        },
+        {
+          class: "Saber",
+          name: "Gawain",
+          real: "Caballero de la Mesa Redonda",
+          np: "Excalibur Galatine",
+          npType: "Anti-Army",
+          saga: "FGO, Extella",
+          notes: "Llama solar.",
+        },
+        {
+          class: "Saber",
+          name: "Bedivere",
+          real: "Caballero que devuelve Excalibur",
+          np: "Switch On – Airgetlám",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Canaliza energía sagrada.",
+        },
+        {
+          class: "Saber",
+          name: "Lancelot (Saber)",
+          real: "Caballero del Lago",
+          np: "Arondight: Overload",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Espada sagrada, ignora defensa.",
+        },
+        {
+          class: "Saber",
+          name: "Nero Claudius",
+          real: "Emperatriz romana",
+          np: "Aestus Domus Aurea",
+          npType: "Reality Marble",
+          saga: "Extra, CCC, Extella, FGO",
+          notes: "Teatro dorado con ventaja total.",
+        },
+        {
+          class: "Saber",
+          name: "Nero Bride",
+          real: "Nero ceremonial",
+          np: "Aestus Domus Aurea (Bride)",
+          npType: "Reality Marble/Support",
+          saga: "FGO",
+          notes: "Soporte y combate elegante.",
+        },
+        {
+          class: "Saber",
+          name: "Sigurd",
+          real: "Héroe nórdico",
+          np: "Balmung",
+          npType: "Anti-Dragon/Anti-Army",
+          saga: "FGO",
+          notes: "Especialista anti-dragón.",
+        },
+        {
+          class: "Saber",
+          name: "Siegfried",
+          real: "Héroe germánico",
+          np: "Balmung",
+          npType: "Anti-Dragon/Anti-Army",
+          saga: "Apocrypha, FGO",
+          notes: "Versión germánica, mata-dragones.",
+        },
+        {
+          class: "Saber",
+          name: "Rama",
+          real: "Héroe del Ramayana",
+          np: "Brahmastra Kundala",
+          npType: "Anti-Divinity",
+          saga: "FGO",
+          notes: "Flecha divina contra deidades.",
+        },
+        {
+          class: "Saber",
+          name: "Okita Sōji",
+          real: "Capitán Shinsengumi",
+          np: "Mumyo Sandanzuki",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Triple estocada inevitable.",
+        },
+        {
+          class: "Saber",
+          name: "Okita Alter",
+          real: "Okita alter",
+          np: "Zekken Mukyū Sandanzuki",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Versión corrupta y potenciada.",
+        },
+        {
+          class: "Saber",
+          name: "Musashi Miyamoto",
+          real: "Espadachina legendaria",
+          np: "Six Realms Five Planes",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Cortes a través de realidades.",
+        },
+        {
+          class: "Saber",
+          name: "Chevalier d’Eon",
+          real: "Espía francés",
+          np: "Fleur de Lis",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Esgrima defensiva y engaño.",
+        },
+        {
+          class: "Saber",
+          name: "Lakshmi Bai",
+          real: "Reina guerrera india",
+          np: "Veer Surendra Sai",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Daño masivo + inspirar aliados.",
+        },
+        {
+          class: "Saber",
+          name: "Saito Hajime",
+          real: "Shinsengumi",
+          np: "Sandanzuki (estilo Hajime)",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Estocada letal.",
+        },
+        {
+          class: "Saber",
+          name: "Beni-Enma",
+          real: "Tengu carpintero",
+          np: "Kotengu Tenmoku Jizai",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Cortes veloces místicos.",
+        },
+
+        // Lancer
+        {
+          class: "Lancer",
+          name: "Cu Chulainn",
+          real: "Héroe de Ulster",
+          np: "Gáe Bolg",
+          npType: "Anti-Unit / Anti-Army (throw)",
+          saga: "FSN, UBW, HF, FGO",
+          notes: "Invierte causalidad; muerte sucede antes del impacto.",
+        },
+        {
+          class: "Lancer",
+          name: "Diarmuid Ua Duibhne",
+          real: "Caballero Fianna",
+          np: "Gáe Dearg & Gáe Buidhe",
+          npType: "Anti-Unit",
+          saga: "Zero, FGO",
+          notes: "Ignora defensas mágicas y causa heridas incurables.",
+        },
+        {
+          class: "Lancer",
+          name: "Karna",
+          real: "Héroe indio",
+          np: "Vasavi Shakti",
+          npType: "Anti-Divinity",
+          saga: "Apocrypha, FGO",
+          notes: "Lanza solar que destruye deidades.",
+        },
+        {
+          class: "Lancer",
+          name: "Enkidu",
+          real: "Forjado por los dioses",
+          np: "Enuma Elish (Chains of Heaven)",
+          npType: "Anti-World",
+          saga: "FGO",
+          notes: "Cadenas que sellan seres divinos.",
+        },
+        {
+          class: "Lancer",
+          name: "Brynhildr",
+          real: "Valquiria",
+          np: "Brynhildr Romantia",
+          npType: "Anti-Unit (selectivo)",
+          saga: "FGO",
+          notes: "Daño extra a héroes que ama.",
+        },
+        {
+          class: "Lancer",
+          name: "Romulus",
+          real: "Fundador de Roma",
+          np: "Magna Voluisse Magnum",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "La gloria de Roma como ataque masivo.",
+        },
+        {
+          class: "Lancer",
+          name: "Li Shuwen (Lancer)",
+          real: "Maestro marcial",
+          np: "Shen Qiang Wu Er Da",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Golpe perfecto en un punto vital.",
+        },
+        {
+          class: "Lancer",
+          name: "Nagao Kagetora",
+          real: "General japonés",
+          np: "Bishamonten’s Protection",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Bendición del dios de la guerra.",
+        },
+        {
+          class: "Lancer",
+          name: "Parvati",
+          real: "Diosa en Sakura",
+          np: "Trishula Shakti",
+          npType: "Anti-Unit/Anti-Army",
+          saga: "FGO",
+          notes: "Lanza divina purificadora.",
+        },
+        {
+          class: "Lancer",
+          name: "Ereshkigal (Lancer)",
+          real: "Diosa del Inframundo",
+          np: "Kur Kigal Irkalla",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Invoca el inframundo como prisión.",
+        },
+
+        // Archer
+        {
+          class: "Archer",
+          name: "Emiya (Archer)",
+          real: "Shirou de futuro alterno",
+          np: "Unlimited Blade Works",
+          npType: "Reality Marble",
+          saga: "FSN, UBW, HF, FGO",
+          notes: "Arsenal infinito; además Kanshou & Bakuya, Caladbolg II.",
+        },
+        {
+          class: "Archer",
+          name: "Gilgamesh",
+          real: "Rey de Uruk",
+          np: "Gate of Babylon / Enuma Elish",
+          npType: "Anti-Unit/Army / Anti-World",
+          saga: "FSN, Zero, FGO",
+          notes: "Tesoros infinitos; espada que separa cielo y tierra.",
+        },
+        {
+          class: "Archer",
+          name: "Atalanta",
+          real: "Cazadora griega",
+          np: "Phoebus Catastrophe",
+          npType: "Anti-Army",
+          saga: "Apocrypha, FGO",
+          notes: "Lluvia de flechas guiadas.",
+        },
+        {
+          class: "Archer",
+          name: "Robin Hood",
+          real: "Arquero inglés",
+          np: "Yew Bow",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Flecha envenenada; más daño a enemigos debilitados.",
+        },
+        {
+          class: "Archer",
+          name: "Arjuna",
+          real: "Guerrero del Mahabharata",
+          np: "Pashupata",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Ataque selectivo que ignora defensas.",
+        },
+        {
+          class: "Archer",
+          name: "Ishtar (Archer)",
+          real: "Diosa en Rin",
+          np: "Maanna",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Barco volador que dispara energía.",
+        },
+        {
+          class: "Archer",
+          name: "Napoleon",
+          real: "Emperador francés",
+          np: "Arc de Triomphe de l’Étoile",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Cañón de luz de la gloria francesa.",
+        },
+        {
+          class: "Archer",
+          name: "Tesla",
+          real: "Nikola Tesla",
+          np: "System Keraunos",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Disparo masivo de rayos.",
+        },
+        {
+          class: "Archer",
+          name: "Chiron",
+          real: "Centauro maestro",
+          np: "Antares Snipe",
+          npType: "Anti-Unit",
+          saga: "Apocrypha, FGO",
+          notes: "Disparo infalible a cualquier distancia.",
+        },
+
+        // Rider
+        {
+          class: "Rider",
+          name: "Medusa",
+          real: "Gorgona",
+          np: "Bellerophon / Blood Fort Andromeda / Breaker Gorgon",
+          npType: "Anti-Army / Campo / Sellado",
+          saga: "FSN, HF, FGO",
+          notes: "Carga con Pegaso; campo que drena vida; sello mágico.",
+        },
+        {
+          class: "Rider",
+          name: "Iskandar (Alejandro Magno)",
+          real: "Conquistador",
+          np: "Ionioi Hetairoi / Bucephalus",
+          npType: "Reality Marble / Anti-Unit",
+          saga: "Zero, FGO",
+          notes: "Invoca su ejército; carga montada.",
+        },
+        {
+          class: "Rider",
+          name: "Astolfo",
+          real: "Paladín de Carlomagno",
+          np: "Hippogriff / Trap of Argalia",
+          npType: "Anti-Unit/Army",
+          saga: "Apocrypha, FGO",
+          notes: "Montura invisible; lanza que desmonta.",
+        },
+        {
+          class: "Rider",
+          name: "Francis Drake",
+          real: "Pirata",
+          np: "Golden Wild Hunt",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Flota fantasmal.",
+        },
+        {
+          class: "Rider",
+          name: "Ozymandias",
+          real: "Ramsés II",
+          np: "Ramesseum Tentyris",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Templo que dispara rayos solares.",
+        },
+        {
+          class: "Rider",
+          name: "Achilles",
+          real: "Héroe troyano",
+          np: "Dromos Cometēs / Andreia Phthia",
+          npType: "Anti-Army / Support",
+          saga: "Apocrypha, FGO",
+          notes: "Carga meteórica; escudo impenetrable.",
+        },
+        {
+          class: "Rider",
+          name: "Quetzalcoatl",
+          real: "Diosa mesoamericana",
+          np: "Xiuhcoatl (Patada solar)",
+          npType: "Anti-Unit",
+          saga: "FGO",
+          notes: "Ataque de fuego solar.",
+        },
+        {
+          class: "Rider",
+          name: "Saint Martha (Rider)",
+          real: "Santa",
+          np: "Tarasque",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Invoca dragón domesticado.",
+        },
+
+        // Caster
+        {
+          class: "Caster",
+          name: "Medea",
+          real: "Hechicera de Colchis",
+          np: "Rule Breaker",
+          npType: "Anti-Magic / Anti-Unit",
+          saga: "FSN",
+          notes: "Rompe contratos y hechizos.",
+        },
+        {
+          class: "Caster",
+          name: "Gilles de Rais (Caster)",
+          real: "Invocador aberraciones",
+          np: "Prelati's Spellbook",
+          npType: "Anti-Army / Invocación",
+          saga: "Zero",
+          notes: "Invoca monstruos marinos.",
+        },
+        {
+          class: "Caster",
+          name: "Tamamo no Mae",
+          real: "Zorro de nueve colas",
+          np: "Eightfold Blessing of Amaterasu",
+          npType: "Support/Heal",
+          saga: "Extra, FGO",
+          notes: "Reduce CDs, cura y potencia Arts.",
+        },
+        {
+          class: "Caster",
+          name: "Hans Christian Andersen",
+          real: "Escritor",
+          np: "Innocent Monster: The Little Mermaid",
+          npType: "Support",
+          saga: "FGO",
+          notes: "Buffs y curas continuas.",
+        },
+        {
+          class: "Caster",
+          name: "Nitocris",
+          real: "Reina egipcia",
+          np: "Anpu Neb Ta Djeser",
+          npType: "Anti-Army / Instakill",
+          saga: "FGO",
+          notes: "Especialista en AoE con muerte instantánea.",
+        },
+        {
+          class: "Caster",
+          name: "Merlin",
+          real: "Mago de Avalon",
+          np: "Garden of Avalon",
+          npType: "Support",
+          saga: "FGO/Prototype",
+          notes: "Soporte extremo: curas, NP gain, críticos.",
+        },
+        {
+          class: "Caster",
+          name: "Altria Caster",
+          real: "Altria (soporte)",
+          np: "Around Caliburn",
+          npType: "Support / Anti-Army",
+          saga: "FGO",
+          notes: "Buffs Arts potentes; daño AoE.",
+        },
+
+        // Assassin
+        {
+          class: "Assassin",
+          name: "Hassan (Cursed Arm)",
+          real: "Hassan-i Sabbah",
+          np: "Zabaniya",
+          npType: "Anti-Unit",
+          saga: "FSN",
+          notes: "Asesinato del corazón.",
+        },
+        {
+          class: "Assassin",
+          name: "True Assassin",
+          real: "Hassan-i Sabbah",
+          np: "Zabaniya: Delusional Heartbeat",
+          npType: "Anti-Unit",
+          saga: "HF",
+          notes: "Asesinato conceptual del corazón.",
+        },
+        {
+          class: "Assassin",
+          name: "Hassan of Hundred Faces",
+          real: "Múltiples identidades",
+          np: "Zabaniya: Multiple Personas",
+          npType: "Anti-Unit",
+          saga: "Zero",
+          notes: "División en múltiples personas.",
+        },
+        {
+          class: "Assassin",
+          name: "Jack the Ripper",
+          real: "—",
+          np: "Maria the Ripper",
+          npType: "Anti-Unit (Female)",
+          saga: "Apocrypha",
+          notes: "Asesinato contra mujeres.",
+        },
+        {
+          class: "Assassin",
+          name: "Semiramis",
+          real: "Reina de Asiria",
+          np: "Hanging Gardens of Babylon",
+          npType: "Anti-Fortress",
+          saga: "Apocrypha",
+          notes: "Fortaleza aérea y venenos.",
+        },
+
+        // Berserker
+        {
+          class: "Berserker",
+          name: "Heracles",
+          real: "Hércules",
+          np: "Nine Lives",
+          npType: "Anti-Army",
+          saga: "FSN",
+          notes: "Ataques múltiples hiperrápidos.",
+        },
+        {
+          class: "Berserker",
+          name: "Lancelot (Berserker)",
+          real: "Caballero del Lago",
+          np: "Arondight: Overload",
+          npType: "Anti-Unit",
+          saga: "Zero",
+          notes: "Potencia física máxima.",
+        },
+        {
+          class: "Berserker",
+          name: "Fran",
+          real: "Monstruo de Frankenstein",
+          np: "Blasted Tree",
+          npType: "Anti-Army",
+          saga: "Apocrypha",
+          notes: "Descarga eléctrica masiva.",
+        },
+        {
+          class: "Berserker",
+          name: "Vlad III (Berserker)",
+          real: "Vlad Tepes",
+          np: "Kazikli Bey",
+          npType: "Anti-Army",
+          saga: "Apocrypha",
+          notes: "Estacas que emergen del suelo.",
+        },
+
+        // Ruler
+        {
+          class: "Ruler",
+          name: "Jeanne d’Arc",
+          real: "Doncella de Orleans",
+          np: "Luminosité Eternelle",
+          npType: "Soporte / Defensa",
+          saga: "Apocrypha, FGO",
+          notes: "Escudo invulnerable AoE por 1 turno.",
+        },
+        {
+          class: "Ruler",
+          name: "Amakusa Shirou",
+          real: "Líder cristiano",
+          np: "Twin Arm – Big Crunch",
+          npType: "Buster / Anti-buff AoE",
+          saga: "Apocrypha, FGO",
+          notes: "Quita buffs antes de dañar.",
+        },
+        {
+          class: "Ruler",
+          name: "Sherlock Holmes",
+          real: "Detective",
+          np: "Elementary, My Dear",
+          npType: "Arts / Soporte",
+          saga: "FGO",
+          notes: "Ignorar defensa + críticos a aliados.",
+        },
+
+        // Avenger
+        {
+          class: "Avenger",
+          name: "Jeanne d’Arc (Alter)",
+          real: "Jalter",
+          np: "La Grondement Du Haine",
+          npType: "Anti-Army",
+          saga: "FGO",
+          notes: "Explosión de odio; daño AoE.",
+        },
+        {
+          class: "Avenger",
+          name: "Angra Mainyu",
+          real: "—",
+          np: "Verg Avesta",
+          npType: "Anti-Unit",
+          saga: "Hollow Ataraxia, FGO",
+          notes: "Refleja el daño recibido.",
+        },
+        {
+          class: "Avenger",
+          name: "Edmond Dantès",
+          real: "Conde de Montecristo",
+          np: "Monte Cristo Mythologie",
+          npType: "Anti-Unit/Army",
+          saga: "FGO",
+          notes: "Venganza explosiva.",
+        },
+
+        // Moon Cancer
+        {
+          class: "Moon Cancer",
+          name: "BB",
+          real: "AI del Moon Cell",
+          np: "C.C.C. – Cursed Cutting Crater",
+          npType: "Anti-Unit / Control",
+          saga: "CCC, FGO",
+          notes: "Manipula tiempo/turnos; cancela buffs.",
+        },
+        {
+          class: "Moon Cancer",
+          name: "Sesshōin Kiara (MC)",
+          real: "Monja perversa",
+          np: "Heaven's Hole",
+          npType: "Anti-Human (AoE)",
+          saga: "CCC, FGO",
+          notes: "Absorbe todo hacia sí.",
+        },
+
+        // Alter Ego
+        {
+          class: "Alter Ego",
+          name: "Meltlilith",
+          real: "Sakura Five",
+          np: "Meltdown Melty Blood",
+          npType: "ST / Quick",
+          saga: "CCC, FGO",
+          notes: "Cuerpo líquido cortante.",
+        },
+        {
+          class: "Alter Ego",
+          name: "Passionlip",
+          real: "Sakura Five",
+          np: "Trash & Crash",
+          npType: "ST / Buster",
+          saga: "CCC, FGO",
+          notes: "Aplastamiento con garras metálicas.",
+        },
+        {
+          class: "Alter Ego",
+          name: "Sitonai",
+          real: "Fusión divina",
+          np: "Kamuy Yukar",
+          npType: "ST / Arts",
+          saga: "FGO",
+          notes: "Invoca deidades Ainu.",
+        },
+
+        // Foreigner
+        {
+          class: "Foreigner",
+          name: "Abigail Williams",
+          real: "Niña de Salem",
+          np: "Qlipoth Rhizome",
+          npType: "AoE / Debuff",
+          saga: "FGO",
+          notes: "Abre portal a horrores; reduce resistencias.",
+        },
+        {
+          class: "Foreigner",
+          name: "Hokusai",
+          real: "Katsushika Hokusai",
+          np: "Thirty-Six Views (Greater Wave)",
+          npType: "AoE / Arts",
+          saga: "FGO",
+          notes: "Oleada artística cósmica.",
+        },
+        {
+          class: "Foreigner",
+          name: "Voyager",
+          real: "Sonda espacial",
+          np: "Pale Blue Dot",
+          npType: "ST / Arts",
+          saga: "FGO",
+          notes: "Explosión de energía interestelar.",
+        },
+
+        // Shielder
+        {
+          class: "Shielder",
+          name: "Mash Kyrielight",
+          real: "Demi-Servant",
+          np: "Lord Camelot",
+          npType: "Soporte / Defensa",
+          saga: "FGO",
+          notes: "Barrera que reduce daño a todo el equipo.",
+        },
+
+        // Beast (referenciales; enemigos)
+        {
+          class: "Beast",
+          name: "Goetia (Beast I)",
+          real: "—",
+          np: "Ars Almadel Salomonis",
+          npType: "Anti-Humanity",
+          saga: "FGO",
+          notes: "Energía mágica de la humanidad contra la humanidad.",
+        },
+        {
+          class: "Beast",
+          name: "Tiamat (Beast II)",
+          real: "—",
+          np: "Chaos Tide",
+          npType: "Reality Overwrite",
+          saga: "FGO",
+          notes: "Mar Primordial y bestias demoníacas.",
+        },
+        {
+          class: "Beast",
+          name: "Kiara (Beast III/L)",
+          real: "—",
+          np: "Heaven's Hole",
+          npType: "Anti-World",
+          saga: "FGO",
+          notes: "Absorción total de existencia.",
+        },
+      ];
+
+      // ===================== LOGIC =====================
+      const qs = (s) => document.querySelector(s);
+      const qsa = (s) => Array.from(document.querySelectorAll(s));
+      const tbody = qs("#grid tbody");
+      const pger = qs("#pager");
+      const count = qs("#count");
+      const clsSel = qs("#cls");
+      const typeSel = qs("#nptype");
+      const qInput = qs("#q");
+      const sagaInput = qs("#saga");
+      const chips = qs("#activeChips");
+
+      const unique = (arr) =>
+        [...new Set(arr)].sort((a, b) => a.localeCompare(b));
+      const CLASSES = unique(DATA.map((d) => d.class));
+      const TYPES = unique(
+        DATA.flatMap((d) => d.npType.split("/").map((x) => x.trim()))
+      );
+
+      CLASSES.forEach((c) => {
+        const o = document.createElement("option");
+        o.value = c;
+        o.textContent = c;
+        clsSel.appendChild(o);
+      });
+      TYPES.forEach((t) => {
+        const o = document.createElement("option");
+        o.value = t;
+        o.textContent = t;
+        typeSel.appendChild(o);
+      });
+
+      let state = {
+        page: 1,
+        size: 25,
+        sortKey: "class",
+        sortDir: "asc",
+        q: "",
+        cls: "",
+        nptype: "",
+        saga: "",
+      };
+
+      function cmp(a, b) {
+        const ka = (a[state.sortKey] || "").toString().toLowerCase();
+        const kb = (b[state.sortKey] || "").toString().toLowerCase();
+        if (ka < kb) return state.sortDir === "asc" ? -1 : 1;
+        if (ka > kb) return state.sortDir === "asc" ? 1 : -1;
+        return 0;
+      }
+
+      function filterRow(d) {
+        const q = state.q.trim().toLowerCase();
+        const inQ =
+          !q ||
+          [d.name, d.real, d.np, d.notes].some((x) =>
+            (x || "").toLowerCase().includes(q)
+          );
+        const inCls = !state.cls || d.class === state.cls;
+        const inType =
+          !state.nptype ||
+          d.npType
+            .split("/")
+            .map((x) => x.trim())
+            .includes(state.nptype);
+        const inSaga =
+          !state.saga ||
+          (d.saga || "").toLowerCase().includes(state.saga.toLowerCase());
+        return inQ && inCls && inType && inSaga;
+      }
+
+      function render() {
+        const rows = DATA.filter(filterRow).sort(cmp);
+        const total = rows.length;
+        const pages = Math.max(1, Math.ceil(total / state.size));
+        if (state.page > pages) state.page = pages;
+        const start = (state.page - 1) * state.size;
+        const pageRows = rows.slice(start, start + state.size);
+        tbody.innerHTML = pageRows
+          .map(
+            (d) => `
+    <tr>
+      <td class="cls">${d.class}</td>
+      <td>${d.name}</td>
+      <td>${d.real || ""}</td>
+      <td class="np">${d.np}</td>
+      <td><span class="pill">${d.npType}</span></td>
+      <td>${d.saga}</td>
+      <td>${d.notes || ""}</td>
+    </tr>`
+          )
+          .join("");
+        // pager
+        pger.innerHTML = "";
+        const mkBtn = (txt, dis, cb) => {
+          const b = document.createElement("button");
+          b.textContent = txt;
+          b.disabled = !!dis;
+          b.onclick = cb;
+          return b;
+        };
+        pger.appendChild(
+          mkBtn("⟨⟨", state.page === 1, () => {
+            state.page = 1;
+            render();
+          })
+        );
+        pger.appendChild(
+          mkBtn("⟨", state.page === 1, () => {
+            state.page--;
+            render();
+          })
+        );
+        for (
+          let i = Math.max(1, state.page - 2);
+          i <= Math.min(pages, state.page + 2);
+          i++
+        ) {
+          const b = mkBtn(i, i === state.page, () => {
+            state.page = i;
+            render();
+          });
+          pger.appendChild(b);
+        }
+        pger.appendChild(
+          mkBtn("⟩", state.page === pages, () => {
+            state.page++;
+            render();
+          })
+        );
+        pger.appendChild(
+          mkBtn("⟩⟩", state.page === pages, () => {
+            state.page = pages;
+            render();
+          })
+        );
+        count.textContent = `${total} resultados · página ${state.page}/${pages}`;
+        renderChips();
+      }
+
+      function renderChips() {
+        chips.innerHTML = "";
+        const add = (label, val, clearFN) => {
+          if (!val) return;
+          const c = document.createElement("span");
+          c.className = "chip";
+          c.textContent = label + ": " + val;
+          c.title = "Click para limpiar";
+          c.style.cursor = "pointer";
+          c.onclick = () => {
+            clearFN();
+            render();
+          };
+          chips.appendChild(c);
+        };
+        add("Búsqueda", state.q, () => (state.q = ""));
+        add("Clase", state.cls, () => (state.cls = ""));
+        add("Tipo NP", state.nptype, () => (state.nptype = ""));
+        add("Saga", state.saga, () => (state.saga = ""));
+      }
+
+      qInput.addEventListener("input", (e) => {
+        state.q = e.target.value;
+        state.page = 1;
+        render();
+      });
+      clsSel.addEventListener("change", (e) => {
+        state.cls = e.target.value;
+        state.page = 1;
+        render();
+      });
+      typeSel.addEventListener("change", (e) => {
+        state.nptype = e.target.value;
+        state.page = 1;
+        render();
+      });
+      sagaInput.addEventListener("input", (e) => {
+        state.saga = e.target.value;
+        state.page = 1;
+        render();
+      });
+
+      qsa("th.sortable").forEach((th) => {
+        th.addEventListener("click", () => {
+          const key = th.dataset.key;
+          if (state.sortKey === key) {
+            state.sortDir = state.sortDir === "asc" ? "desc" : "asc";
+          } else {
+            state.sortKey = key;
+            state.sortDir = "asc";
+          }
+          render();
+        });
+      });
+
+      qs("#clear").onclick = () => {
+        state = { ...state, q: "", cls: "", nptype: "", saga: "", page: 1 };
+        qInput.value = "";
+        clsSel.value = "";
+        typeSel.value = "";
+        sagaInput.value = "";
+        render();
+      };
+
+      function download(filename, text) {
+        const a = document.createElement("a");
+        a.setAttribute(
+          "href",
+          "data:text/plain;charset=utf-8," + encodeURIComponent(text)
+        );
+        a.setAttribute("download", filename);
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+
+      qs("#exportJson").onclick = () => {
+        const rows = DATA.filter(filterRow).sort(cmp);
+        download("fate_compendium.json", JSON.stringify(rows, null, 2));
+      };
+
+      qs("#exportCsv").onclick = () => {
+        const rows = DATA.filter(filterRow).sort(cmp);
+        const cols = ["class", "name", "real", "np", "npType", "saga", "notes"];
+        const header = cols.join(",");
+        const esc = (v) =>
+          '"' + (v ?? "").toString().replaceAll('"', '""') + '"';
+        const body = rows
+          .map((r) => cols.map((c) => esc(r[c])).join(","))
+          .join("\n");
+        download("fate_compendium.csv", header + "\n" + body);
+      };
+
+      render();
+    </script>
+  </body>
+</html>
