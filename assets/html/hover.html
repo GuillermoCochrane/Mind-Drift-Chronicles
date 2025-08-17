@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar con Efecto Hover</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #f5f5f5;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px 0;
+        }
+
+        .nav-item {
+            position: relative;
+            margin: 0 25px;
+            padding: 10px 0;
+            color: #333;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            overflow: hidden; /* Oculta el pseudo-elemento que exceda */
+        }
+
+        /* El subrayado (inicialmente invisible) */
+        .nav-item::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: 0; /* Empieza desde la derecha */
+            width: 0%; /* Inicialmente sin ancho */
+            height: 3px;
+            background: #4a6bff;
+            transition: width 0.3s ease-out; /* Anima solo el ancho */
+        }
+
+        /* Efecto hover: el subrayado crece de derecha a izquierda */
+        .nav-item:hover::after {
+            width: 100%; /* Llega al 100% del ancho */
+            left: 0; /* Fuerza el crecimiento desde la derecha */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="nav-item">Inicio</a>
+        <a href="#" class="nav-item">Servicios</a>
+        <a href="#" class="nav-item">Contacto</a>
+    </nav>
+</body>
+</html>
