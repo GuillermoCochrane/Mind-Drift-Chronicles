@@ -4,13 +4,13 @@
 
 ### **Tu versión (¡ya es genial!):**
 ```javascript
-I am the bone of my App.
+I am the bone of my code.
 Scrips are my body, and bytes are my blood.
 I have debugged over a thousand errors.  
 Unknown to sleep, nor known to social life.  .
 Have withstood burnout to deploy many features. 
 Yet, those hands will never test anything.
-So as I pray— Unlimited Code Works!
+So as I pray— Unlimited Apps Works!
 ```
 
 ### **Versión tuneada (por si quieres más drama tech):**
