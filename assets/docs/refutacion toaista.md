@@ -1,0 +1,3 @@
+Discutir con un oligofrénico anecefalico que trata de emocionanalizar el debate, es una ineficiencia en el consumo de recursos cognitivos- Te voy a pedir, muy amablemente, que te dirijas hacia la vulva de tu meretriz progenitora. FIN
+
+"Discutir con un oligofrénico anencefálico que trata de emocionalizar el debate es una ineficiencia en el consumo de recursos cognitivos. Te voy a pedir, muy amablemente, que te dirijas hacia la vulva de tu meretriz progenitora. FIN."
