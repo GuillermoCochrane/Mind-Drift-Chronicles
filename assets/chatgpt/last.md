@@ -1,8 +1,8 @@
 # Descargas GPT
 
-## Ultima descarga
+## Ultimo backup
 
-- GPT 6 y la AGI
+- Resolver 2FA de GitHub
 
 ## Charlas descargadas
 
@@ -11,3 +11,6 @@
 * Preguntas para conocerte
 * Evaluación de neurodivergencia
 * GPT 6 y la AGI
+* Exportador de chats con IAs
+* Resolver 2FA de GitHub
+* Reemplazar For Por ForEach
