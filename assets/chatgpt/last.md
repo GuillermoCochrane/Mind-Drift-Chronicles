@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Resolver 2FA de GitHub
+* Explicación regex saltos línea
 
 ## Charlas descargadas
 
@@ -17,12 +17,12 @@
 - [x] **Reemplazar For Por ForEach**
 - [x] **Exportador de chats con IAs**
 - [x] **Resolver 2FA de GitHub**
-- [x] Mejor IA local programación
-- [x] Explicación reglas CSS
-- [x] Composition vs Inheritance OOP
-- [x] Tamaño ícono extensión Chrome
-- [x] Revisión de script y CSS
-- [x] Explicación regex saltos línea
+- [x] **Mejor IA local programación**
+- [x] **Explicación reglas CSS**
+- [x] **Composition vs Inheritance OOP**
+- [x] **Tamaño ícono extensión Chrome**
+- [x] **Revisión de script y CSS**
+- [x] **Explicación regex saltos línea**
 - [x] Ayuda con bug extensión
 - [x] Reconstrucción estado proyecto A
 - [x] Crear extensión Chrome ChatGPT
