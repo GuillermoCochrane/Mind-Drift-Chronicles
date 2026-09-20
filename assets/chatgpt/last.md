@@ -2,15 +2,306 @@
 
 ## Ultimo backup
 
-- Resolver 2FA de GitHub
+* Resolver 2FA de GitHub
 
 ## Charlas descargadas
 
-* Descargas Manifest V3
-* Demanda Del Mercado Dev
-* Preguntas para conocerte
-* Evaluación de neurodivergencia
-* GPT 6 y la AGI
-* Exportador de chats con IAs
-* Resolver 2FA de GitHub
-* Reemplazar For Por ForEach
+- [x] **receta chipa**
+- [x] **Comparar planificaciones de IA**
+- [x] **Video sobre HTML**
+- [x] **Descargas Manifest V3**
+- [x] **Demanda Del Mercado Dev**
+- [x] **Preguntas para conocerte**
+- [x] **Evaluación de neurodivergencia**
+- [x] **GPT 6 y la AGI**
+- [x] **Reemplazar For Por ForEach**
+- [x] **Exportador de chats con IAs**
+- [x] **Resolver 2FA de GitHub**
+- [x] Mejor IA local programación
+- [x] Explicación reglas CSS
+- [x] Composition vs Inheritance OOP
+- [x] Tamaño ícono extensión Chrome
+- [x] Revisión de script y CSS
+- [x] Explicación regex saltos línea
+- [x] Ayuda con bug extensión
+- [x] Reconstrucción estado proyecto A
+- [x] Crear extensión Chrome ChatGPT
+- [x] Lo que sé de ti
+- [x] Análisis Causa Cuadernos
+- [x] Verificación de video viral
+- [x] Test de Tipología MBTI
+- [x] Resumen de contexto IA
+- [x] Comparativa Lenovo vs ASUS
+- [x] Cambio idioma TV TDA
+- [x] Moltbook explicación
+- [x] Anécdota y cultura pop
+- [x] Explorando límites de Grok
+- [x] Modo adulto ChatGPT 2026
+- [x] Análisis cisne negro 80%
+- [x] Análisis editorial Elbaum
+- [ ] Análisis verosimilitud entrevista
+- [ ] Error 429 explicación
+- [ ] Opinión proyecto web
+- [ ] Verificación de métodos SRT
+- [ ] Votos La Libertad Avanza
+- [ ] Serie Better Than Us
+- [ ] Opinión sobre proyecto Pokedex
+- [ ] Estado de ánimo descrito
+- [ ] Comparar Chile y Argentina
+- [ ] Orden de Ghost in the Shell
+- [ ] Revisión o plan de acción
+- [ ] Adivinar película emojis
+- [ ] Sugerencias para mensaje de felici
+- [ ] Efecto solapado al hacer scroll
+- [ ] Proyectos y organización
+- [ ] Explicación archivo simil JSON
+- [ ] Logo editable bordado remera
+- [ ] Imagen plana para impresión
+- [ ] Nivel de inglés
+- [ ] Película cómplice o gánster
+- [ ] Paletas Mugen aplicación correcta
+- [ ] Redes sociales y tiempo
+- [ ] Huevo aumento 50%
+- [ ] Confusión entre sarcasmo y soberbi
+- [ ] Analizar repositorio GitHub
+- [ ] Duración VODs Twitch
+- [ ] Sustituir huevos tortilla
+- [ ] DNS_PROBE_FINISHED_NXDOMAIN
+- [ ] Propiedad CSS para texto
+- [ ] Calcular RefID Oblivion
+- [ ] Historia principal Morrowind
+- [ ] Función validación email
+- [ ] Validación formulario dashboard
+- [ ] Funciones Dashboard Backend
+- [ ] Modificar action formulario PUT
+- [ ] Resetear autoincremento MySQL
+- [ ] Dashboard utilities explicación
+- [ ] ¿Qué es Octoparse?
+- [ ] Consumo de APIs en WP
+- [ ] Precios variables en WooCommerc
+- [ ] Problema con this en funciones
+- [ ] Etiquetas HTML para sections
+- [ ] Error archivo grande GitHub
+- [ ] Subida de nivel Oblivion
+- [ ] Revisión de modelos SQL
+- [ ] Estructura app gestión
+- [ ] Botón fuera de formulario
+- [ ] Cambiar resolución MUGEN
+- [ ] Consulta Sequelize Modelos
+- [ ] Error en controlador Sequelize
+- [ ] Fecha no válida moment.js
+- [ ] Definir timestamps en Sequelize
+- [ ] WP Migración Límite 128MB
+- [ ] Uso de .then() y async/await
+- [ ] ¿Qué es Chaty?
+- [ ] Descripciones hamburguesas sitio
+- [ ] problemas con woocomerce
+- [ ] Configurar Contact Form 7
+- [ ] Personajes Arcane temporada 2
+- [ ] Background Overlay en BeTheme
+- [ ] Enlace Instagram y Email
+- [ ] Promedio duración canciones SQL
+- [ ] Productos Elementor en WP
+- [ ] Error en rango fechas
+- [ ] Uso de Facebook con accesibilidad
+- [ ] Héroe con Summon Boat
+- [ ] Migrar WordPress a hosting
+- [ ] Diseño de bases de datos
+- [ ] Diferencia entre MySQL y SQL
+- [ ] Corregir loader React
+- [ ] Gestión de Acciones PAC
+- [ ] Extracción de texto imágenes
+- [ ] Scroll a nueva clase
+- [ ] Identificación de tipografías en ima
+- [ ] Variedad de hamburguesa Los Áng
+- [ ] Ricos argentinos en Uruguay
+- [ ] Lista de colores en Python
+- [ ] Herramientas IA eliminar elemento
+- [ ] Plugins en WordPress 101
+- [ ] Atahualpa Burgers Descripción We
+- [ ] Componente Input en React
+- [ ] Etiqueta video en HTML
+- [ ] Descripción de archivo de IA
+- [ ] Actualizar Node desde terminal
+- [ ] Cambio de extensiones a jpg
+- [ ] Error 0x80300024 Solución
+- [ ] Proceso de jugos en polvo
+- [ ] Uso de etiqueta dialog
+- [ ] Teclas poderes en M.U.G.E.N
+- [ ] Descarga archivo HTML
+- [ ] Locaciones His Dark Materials
+- [ ] Experimentos en Bolvangar
+- [ ] Prohibición de viajar Corea
+- [ ] Cantidad de tickets capicúa
+- [ ] Problema arranque Windows 10
+- [ ] Markdown Image Issue
+- [ ] Tiempo para liberar dominio
+- [ ] Cerrar Detalles HTML
+- [ ] Error en git push
+- [ ] Method Name Suggestions
+- [ ] Mostrar espacio en blanco
+- [ ] Explicación del método required
+- [ ] Explicación componente NewList
+- [ ] Explicación componente NewList
+- [ ] ¿Qué es un responsive?
+- [ ] Render Plan Overview
+- [ ] Explicación del Componente React
+- [ ] Validaciones en Componentes
+- [ ] React Component Overview
+- [ ] Evitar herencia CSS
+- [ ] Estructura carpeta public
+- [ ] Formulario Validación JavaScript
+- [ ] Frontend-Backend Field Mismatch
+- [ ] Configuración Middleware Multer
+- [ ] Modificar o Crear Componente
+- [ ] Agregar archivo en formulario
+- [ ] Explicación módulo random
+- [ ] Utilidades y Mensaje Commit
+- [ ] Creación Componente NewList
+- [ ] Estructura de carpetas React
+- [ ] Validación de Campo Nombre
+- [ ] Crear acceso directo npm
+- [ ] Componentes de Formulario React
+- [ ] Gitignore Ignoring .md Files
+- [ ] Razón del nombre The Bachelor
+- [ ] Explicación del Módulo
+- [ ] Explicación de código JavaScript
+- [ ] Explicación del Componente React
+- [ ] Integrar Cron en Express
+- [ ] Eliminar aplicación Clever Cloud
+- [ ] Persistencia de datos Vercel
+- [ ] Error de propiedad undefined
+- [ ] Eliminar espacios en JS
+- [ ] React Form Validation Explained
+- [ ] Archivo información análisis
+- [ ] Explicación de código React
+- [ ] Formulario de Nueva Clase
+- [ ] Contenido del archivo JSON
+- [ ] Optimizar Validación de Títulos
+- [ ] Verificar caracteres especiales Pyth
+- [ ] Explicación de Componente React
+- [ ] Formulario para nueva clase
+- [ ] React Component Functionality
+- [ ] React Hook Usage Error
+- [ ] Voldemort Nos Quiere Separados
+- [ ] Frontend Data Storage
+- [ ] Título Técnico Terciario
+- [ ] Estilo CSS React
+- [ ] Agregar personaje a MUGEN
+- [ ] Historia de la diáspora
+- [ ] Seleccion aleatoria de alumnos
+- [ ] Swagger API Documentation Tools
+- [ ] Problema reinicio infinito Vite
+- [ ] Padre puede ver juego
+- [ ] Pico CSS Framework
+- [ ] Despliegue de API en Vercel
+- [ ] Ejecución condicional por entorno
+- [ ] Load Course Index Dynamically
+- [ ] Fix CORS Error Solution
+- [ ] Ignorar archivo test.js
+- [ ] Mejorar calidad del logo
+- [ ] Configurar propiedad box-shadow
+- [ ] Bucles anidados ejemplificados
+- [ ] Selecting Figure with Img
+- [ ] Incluir imagen en Markdown
+- [ ] Determinar tipo de dato
+- [ ] Convertir texto a mayúsculas
+- [ ] Dia y vacaciones determinan asiste
+- [ ] Install Supermaven Extension Perm
+- [ ] React Trivia Form Component
+- [ ] Walter White's Phone Number
+- [ ] Resolve Circular Import Error
+- [ ] Ejecutar programas en Python
+- [ ] Python Primer Program Print
+- [ ] Embed YouTube Story on Website
+- [ ] Introducción a Python Fundament
+- [ ] Componente NabBarIndex Explica
+- [ ] Extract Course and Class IDs
+- [ ] Diseño básico con React
+- [ ] Enrutamiento react simplificado
+- [ ] Router React Básico Configuración
+- [ ] Excipientes en pastillas.
+- [ ] Error Controlador SAPI5
+- [ ] Details y summary en HTML.
+- [ ] Error 404: Recurso no encontrado
+- [ ] Class and Topic Filtering
+- [ ] Diseño de plataforma educativa
+- [ ] Rutas Parametrizadas en React
+- [ ] Contenido Adulto Infringe Políticas
+- [ ] Diseño de logo requerido.
+- [ ] Expresión algebraica simplificada
+- [ ] Cosas en la mesa
+- [ ] Redes Neuronales Básicas
+- [ ] Adivina el Número
+- [ ] Modificar componente ULTag.
+- [ ] Integración de código.
+- [ ] Reestructura JSX para corregir el e
+- [ ] Nombres para repositorio.
+- [ ] Buscar películas en OMDB
+- [ ] Buscar películas con mejoras
+- [ ] React Router Multiple Sections
+- [ ] Modificar componente MovieRow
+- [ ] Solving CORS Issue
+- [ ] Props en Vite React.
+- [ ] Corrección de estilo de React
+- [ ] React Rendering Setup Guide
+- [ ] Modelo GPT-4 utilizado
+- [ ] Estirar imagen al contenedor
+- [ ] Productos en Línea: Resumen
+- [ ] Productos Categorías Estados.
+- [ ] Efecto sombra con CSS.
+- [ ] Corrección clase icono JavaScript.
+- [ ] Git Ignora Cambios Específicos
+- [ ] Archivos HTML y EJS
+- [ ] Deshacer commit antes push.
+- [ ] Fuente tamaño incorrecto CSS
+- [ ] Estilos para dispositivos pantalla.
+- [ ] Cambiar color con CSS.
+- [ ] Ocultar triángulo etiqueta detalles
+- [ ] Slick Carousel recomendado.
+- [ ] Embla Carousel Setup Tutorial
+- [ ] Archivos HTML, CSS, JS.
+- [ ] Embla Carousel Conocimiento Cor
+- [ ] Crear Carrusel de Imágenes
+- [ ] Parcel-Bundle Empaquetamiento V
+- [ ] Modo en contexto
+- [ ] Embla Carousel Overview
+- [ ] Error EROFS: Sistema de archivos s
+- [ ] Estilos no cargan correctamente
+- [ ] Servidor no muestra mensaje.
+- [ ] Desplegar Proyecto en Glitch
+- [ ] Despliegue de proyectos en Netlify
+- [ ] Renderizar archivo EJS modificado
+- [ ] Renderizar página en Express
+- [ ] Viaje emocional y descubrimientos
+- [ ] Ñoquis de Espinaca Recipe
+- [ ] Styling Input Fields: CSS
+- [ ] Verificación de userData.
+- [ ] Middleware de Validación de Usua
+- [ ] Bordes Transparentes CSS
+- [ ] Validación de Formulario de Regist
+- [ ] Tutorial Validator.js Frontend.
+- [ ] Requerir script validator en script.
+- [ ] Freeze issues with Visual Studio Co
+- [ ] No captura el evento.
+- [ ] Exportar MySQL a SQLite.
+- [ ] Evento "mouseleave" en móviles: t
+- [ ] Archivo HTML, CSS, Script.
+- [ ] Input type hidden.
+- [ ] Input visible, not editable.
+- [ ] Enlace botón en etiquetas.
+- [ ] Extr. en univ. argentinas
+- [ ] Validator.js para validación de dato
+- [ ] Recuperar lista archivada.
+- [ ] Funciones gratuitas Cloudflare.
+- [ ] Deploy MySQL en Hosting SQL.
+- [ ] Local Storage vs Locals
+- [ ] Ayuda de asistente AI
+- [ ] Alianzas geopolíticas: pros y contra
+- [ ] Tortilla de papas.
+- [ ] Integración backend con Mercado
+- [ ] Discurso sobre Malvinas
+- [ ] Infinite Scroll con JS
+- [ ] Cristina Kirchner Corrupción
+- [ ] What Is Lawfare?
+- [ ] US Latin America Coups
