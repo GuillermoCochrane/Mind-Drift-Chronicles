@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Moltbook explicación
+* Análisis verosimilitud entrevista
 
 ## Charlas descargadas
 
@@ -34,12 +34,12 @@
 - [x] **Comparativa Lenovo vs ASUS**
 - [x] **Cambio idioma TV TDA**
 - [x] **Moltbook explicación**
-- [x] Anécdota y cultura pop
-- [x] Explorando límites de Grok
-- [x] Modo adulto ChatGPT 2026
-- [x] Análisis cisne negro 80%
-- [x] Análisis editorial Elbaum
-- [ ] Análisis verosimilitud entrevista
+- [x] **Anécdota y cultura pop**
+- [x] **Explorando límites de Grok**
+- [x] **Modo adulto ChatGPT 2026**
+- [x] **Análisis cisne negro 80%**
+- [x] **Análisis editorial Elbaum**
+- [x] **Análisis verosimilitud entrevista**
 - [ ] Error 429 explicación
 - [ ] Opinión proyecto web
 - [ ] Verificación de métodos SRT
