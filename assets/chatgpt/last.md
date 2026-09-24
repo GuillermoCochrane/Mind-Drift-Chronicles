@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Explicación regex saltos línea
+* Moltbook explicación
 
 ## Charlas descargadas
 
@@ -23,17 +23,17 @@
 - [x] **Tamaño ícono extensión Chrome**
 - [x] **Revisión de script y CSS**
 - [x] **Explicación regex saltos línea**
-- [x] Ayuda con bug extensión
-- [x] Reconstrucción estado proyecto A
-- [x] Crear extensión Chrome ChatGPT
-- [x] Lo que sé de ti
-- [x] Análisis Causa Cuadernos
-- [x] Verificación de video viral
-- [x] Test de Tipología MBTI
-- [x] Resumen de contexto IA
-- [x] Comparativa Lenovo vs ASUS
-- [x] Cambio idioma TV TDA
-- [x] Moltbook explicación
+- [x] **Ayuda con bug extensión**
+- [x] **Reconstrucción estado proyecto A**
+- [x] **Crear extensión Chrome ChatGPT**
+- [x] **Lo que sé de ti**
+- [x] **Análisis Causa Cuadernos**
+- [x] **Verificación de video viral**
+- [x] **Test de Tipología MBTI**
+- [x] **Resumen de contexto IA**
+- [x] **Comparativa Lenovo vs ASUS**
+- [x] **Cambio idioma TV TDA**
+- [x] **Moltbook explicación**
 - [x] Anécdota y cultura pop
 - [x] Explorando límites de Grok
 - [x] Modo adulto ChatGPT 2026
