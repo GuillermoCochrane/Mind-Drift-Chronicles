@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Serie Better Than Us
+* Adivinar película emojis
 
 ## Charlas descargadas
 
@@ -45,12 +45,12 @@
 - [x] **Verificación de métodos SRT**
 - [x] **Votos La Libertad Avanza**
 - [x] **Serie Better Than Us**
-- [ ] Opinión sobre proyecto Pokedex
-- [ ] Estado de ánimo descrito
-- [ ] Comparar Chile y Argentina
-- [ ] Orden de Ghost in the Shell
-- [ ] Revisión o plan de acción
-- [ ] Adivinar película emojis
+- [x] **Opinión sobre proyecto Pokedex**
+- [x] **Estado de ánimo descrito**
+- [x] **Comparar Chile y Argentina**
+- [x] **Orden de Ghost in the Shell**
+- [x] **Revisión o plan de acción**
+- [x] **Adivinar película emojis**
 - [ ] Sugerencias para mensaje de felici
 - [ ] Efecto solapado al hacer scroll
 - [ ] Proyectos y organización
