@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Análisis verosimilitud entrevista
+* Serie Better Than Us
 
 ## Charlas descargadas
 
@@ -40,11 +40,11 @@
 - [x] **Análisis cisne negro 80%**
 - [x] **Análisis editorial Elbaum**
 - [x] **Análisis verosimilitud entrevista**
-- [ ] Error 429 explicación
-- [ ] Opinión proyecto web
-- [ ] Verificación de métodos SRT
-- [ ] Votos La Libertad Avanza
-- [ ] Serie Better Than Us
+- [x] **Error 429 explicación**
+- [x] **Opinión proyecto web**
+- [x] **Verificación de métodos SRT**
+- [x] **Votos La Libertad Avanza**
+- [x] **Serie Better Than Us**
 - [ ] Opinión sobre proyecto Pokedex
 - [ ] Estado de ánimo descrito
 - [ ] Comparar Chile y Argentina
