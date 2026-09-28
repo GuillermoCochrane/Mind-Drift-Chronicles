@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Adivinar película emojis
+* Imagen plana para impresión
 
 ## Charlas descargadas
 
@@ -51,12 +51,11 @@
 - [x] **Orden de Ghost in the Shell**
 - [x] **Revisión o plan de acción**
 - [x] **Adivinar película emojis**
-- [ ] Sugerencias para mensaje de felici
+- [x] **Sugerencias para mensaje de felici**
 - [ ] Efecto solapado al hacer scroll
-- [ ] Proyectos y organización
+- [x] **Proyectos y organización**
 - [ ] Explicación archivo simil JSON
-- [ ] Logo editable bordado remera
-- [ ] Imagen plana para impresión
+- [x] **Imagen plana para impresión**
 - [ ] Nivel de inglés
 - [ ] Película cómplice o gánster
 - [ ] Paletas Mugen aplicación correcta
