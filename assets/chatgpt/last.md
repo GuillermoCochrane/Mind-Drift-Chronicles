@@ -52,9 +52,9 @@
 - [x] **Revisión o plan de acción**
 - [x] **Adivinar película emojis**
 - [x] **Sugerencias para mensaje de felici**
-- [ ] Efecto solapado al hacer scroll
+- [x] **Efecto solapado al hacer scroll**
 - [x] **Proyectos y organización**
-- [ ] Explicación archivo simil JSON
+- [x] **Explicación archivo simil JSON**
 - [x] **Imagen plana para impresión**
 - [ ] Nivel de inglés
 - [ ] Película cómplice o gánster
