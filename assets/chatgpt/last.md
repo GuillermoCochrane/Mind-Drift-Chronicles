@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Imagen plana para impresión
+* Nivel de inglés
 
 ## Charlas descargadas
 
@@ -56,20 +56,20 @@
 - [x] **Proyectos y organización**
 - [x] **Explicación archivo simil JSON**
 - [x] **Imagen plana para impresión**
-- [ ] Nivel de inglés
-- [ ] Película cómplice o gánster
-- [ ] Paletas Mugen aplicación correcta
-- [ ] Redes sociales y tiempo
-- [ ] Huevo aumento 50%
-- [ ] Confusión entre sarcasmo y soberbi
-- [ ] Analizar repositorio GitHub
-- [ ] Duración VODs Twitch
-- [ ] Sustituir huevos tortilla
-- [ ] DNS_PROBE_FINISHED_NXDOMAIN
-- [ ] Propiedad CSS para texto
-- [ ] Calcular RefID Oblivion
-- [ ] Historia principal Morrowind
-- [ ] Función validación email
+- [x] **Nivel de inglés**
+- [x] Película cómplice o gánster
+- [x] Paletas Mugen aplicación correcta
+- [x] Redes sociales y tiempo
+- [x] Huevo aumento 50%
+- [x] Confusión entre sarcasmo y soberbi
+- [x] Analizar repositorio GitHub
+- [x] Duración VODs Twitch
+- [x] Sustituir huevos tortilla
+- [x] DNS_PROBE_FINISHED_NXDOMAIN
+- [x] Propiedad CSS para texto
+- [x] Calcular RefID Oblivion
+- [x] Historia principal Morrowind
+- [x] Función validación email
 - [ ] Validación formulario dashboard
 - [ ] Funciones Dashboard Backend
 - [ ] Modificar action formulario PUT
