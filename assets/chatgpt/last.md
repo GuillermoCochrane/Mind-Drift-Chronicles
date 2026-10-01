@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Nivel de inglés
+* Paletas Mugen aplicación correcta
 
 ## Charlas descargadas
 
@@ -57,8 +57,8 @@
 - [x] **Explicación archivo simil JSON**
 - [x] **Imagen plana para impresión**
 - [x] **Nivel de inglés**
-- [x] Película cómplice o gánster
-- [x] Paletas Mugen aplicación correcta
+- [x] **Película cómplice o gánster**
+- [x] **Paletas Mugen aplicación correcta**
 - [x] Redes sociales y tiempo
 - [x] Huevo aumento 50%
 - [x] Confusión entre sarcasmo y soberbi
