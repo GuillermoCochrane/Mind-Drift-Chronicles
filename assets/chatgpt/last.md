@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Paletas Mugen aplicación correcta
+* Sustituir huevos tortilla
 
 ## Charlas descargadas
 
@@ -59,12 +59,12 @@
 - [x] **Nivel de inglés**
 - [x] **Película cómplice o gánster**
 - [x] **Paletas Mugen aplicación correcta**
-- [x] Redes sociales y tiempo
-- [x] Huevo aumento 50%
-- [x] Confusión entre sarcasmo y soberbi
-- [x] Analizar repositorio GitHub
-- [x] Duración VODs Twitch
-- [x] Sustituir huevos tortilla
+- [x] **Redes sociales y tiempo**
+- [x] **Huevo aumento 50%**
+- [x] **Confusión entre sarcasmo y soberbia**
+- [x] **Analizar repositorio GitHub**
+- [x] **Duración VODs Twitch**
+- [x] **Sustituir huevos tortilla**
 - [x] DNS_PROBE_FINISHED_NXDOMAIN
 - [x] Propiedad CSS para texto
 - [x] Calcular RefID Oblivion
