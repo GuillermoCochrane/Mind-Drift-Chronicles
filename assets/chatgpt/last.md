@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Sustituir huevos tortilla
+* Historia principal Morrowind
 
 ## Charlas descargadas
 
@@ -65,10 +65,10 @@
 - [x] **Analizar repositorio GitHub**
 - [x] **Duración VODs Twitch**
 - [x] **Sustituir huevos tortilla**
-- [x] DNS_PROBE_FINISHED_NXDOMAIN
-- [x] Propiedad CSS para texto
-- [x] Calcular RefID Oblivion
-- [x] Historia principal Morrowind
+- [x] **DNS_PROBE_FINISHED_NXDOMAIN**
+- [x] **Propiedad CSS para texto**
+- [x] **Calcular RefID Oblivion**
+- [x] **Historia principal Morrowind**
 - [x] Función validación email
 - [ ] Validación formulario dashboard
 - [ ] Funciones Dashboard Backend
