@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Historia principal Morrowind
+* Dashboard utilities explicación
 
 ## Charlas descargadas
 
@@ -69,13 +69,13 @@
 - [x] **Propiedad CSS para texto**
 - [x] **Calcular RefID Oblivion**
 - [x] **Historia principal Morrowind**
-- [x] Función validación email
-- [ ] Validación formulario dashboard
-- [ ] Funciones Dashboard Backend
-- [ ] Modificar action formulario PUT
-- [ ] Resetear autoincremento MySQL
-- [ ] Dashboard utilities explicación
-- [ ] ¿Qué es Octoparse?
+- [x] **Función validación email**
+- [x] **Validación formulario dashboard**
+- [x] **Funciones Dashboard Backend**
+- [x] **Modificar action formulario PUT**
+- [x] **Resetear autoincremento MySQL**
+- [x] **Dashboard utilities explicación**
+- [x] ¿Qué es Octoparse?
 - [ ] Consumo de APIs en WP
 - [ ] Precios variables en WooCommerc
 - [ ] Problema con this en funciones
