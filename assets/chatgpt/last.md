@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Dashboard utilities explicación
+* Error archivo grande GitHub
 
 ## Charlas descargadas
 
@@ -75,21 +75,21 @@
 - [x] **Modificar action formulario PUT**
 - [x] **Resetear autoincremento MySQL**
 - [x] **Dashboard utilities explicación**
-- [x] ¿Qué es Octoparse?
-- [ ] Consumo de APIs en WP
-- [ ] Precios variables en WooCommerc
-- [ ] Problema con this en funciones
-- [ ] Etiquetas HTML para sections
-- [ ] Error archivo grande GitHub
-- [ ] Subida de nivel Oblivion
-- [ ] Revisión de modelos SQL
-- [ ] Estructura app gestión
-- [ ] Botón fuera de formulario
-- [ ] Cambiar resolución MUGEN
-- [ ] Consulta Sequelize Modelos
-- [ ] Error en controlador Sequelize
-- [ ] Fecha no válida moment.js
-- [ ] Definir timestamps en Sequelize
+- [x] **¿Qué es Octoparse?**
+- [x] **Consumo de APIs en WP**
+- [x] **Precios variables en WooCommerce**
+- [x] **Problema con this en funciones**
+- [x] **Etiquetas HTML para sections**
+- [x] **Error archivo grande GitHub**
+- [x] Subida de nivel Oblivion
+- [x] Revisión de modelos SQL
+- [x] Estructura app gestión
+- [x] Botón fuera de formulario
+- [x] Cambiar resolución MUGEN
+- [x] Consulta Sequelize Modelos
+- [x] Error en controlador Sequelize
+- [x] Fecha no válida moment.js
+- [x] Definir timestamps en Sequelize
 - [ ] WP Migración Límite 128MB
 - [ ] Uso de .then() y async/await
 - [ ] ¿Qué es Chaty?
