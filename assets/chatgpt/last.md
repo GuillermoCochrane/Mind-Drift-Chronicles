@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Error archivo grande GitHub
+* Consulta Sequelize Modelos
 
 ## Charlas descargadas
 
@@ -81,12 +81,12 @@
 - [x] **Problema con this en funciones**
 - [x] **Etiquetas HTML para sections**
 - [x] **Error archivo grande GitHub**
-- [x] Subida de nivel Oblivion
-- [x] Revisión de modelos SQL
-- [x] Estructura app gestión
-- [x] Botón fuera de formulario
-- [x] Cambiar resolución MUGEN
-- [x] Consulta Sequelize Modelos
+- [x] **Subida de nivel Oblivion**
+- [x] **Revisión de modelos SQL**
+- [x] **Estructura app gestión**
+- [x] **Botón fuera de formulario**
+- [x] **Cambiar resolución MUGEN**
+- [x] **Consulta Sequelize Modelos**
 - [x] Error en controlador Sequelize
 - [x] Fecha no válida moment.js
 - [x] Definir timestamps en Sequelize
