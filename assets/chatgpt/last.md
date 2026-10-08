@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Consulta Sequelize Modelos
+* Definir timestamps en Sequelize
 
 ## Charlas descargadas
 
@@ -87,9 +87,9 @@
 - [x] **Botón fuera de formulario**
 - [x] **Cambiar resolución MUGEN**
 - [x] **Consulta Sequelize Modelos**
-- [x] Error en controlador Sequelize
-- [x] Fecha no válida moment.js
-- [x] Definir timestamps en Sequelize
+- [x] **Error en controlador Sequelize**
+- [x] **Fecha no válida moment.js**
+- [x] **Definir timestamps en Sequelize**
 - [ ] WP Migración Límite 128MB
 - [ ] Uso de .then() y async/await
 - [ ] ¿Qué es Chaty?
