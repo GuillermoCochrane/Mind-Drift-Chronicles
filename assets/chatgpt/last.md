@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Definir timestamps en Sequelize
+* ¿Qué es Chaty?
 
 ## Charlas descargadas
 
@@ -90,9 +90,9 @@
 - [x] **Error en controlador Sequelize**
 - [x] **Fecha no válida moment.js**
 - [x] **Definir timestamps en Sequelize**
-- [ ] WP Migración Límite 128MB
-- [ ] Uso de .then() y async/await
-- [ ] ¿Qué es Chaty?
+- [x] **WP Migración Límite 128MB**
+- [x] **Uso de .then() y async/await**
+- [x] **¿Qué es Chaty?**
 - [ ] Descripciones hamburguesas sitio
 - [ ] problemas con woocomerce
 - [ ] Configurar Contact Form 7
