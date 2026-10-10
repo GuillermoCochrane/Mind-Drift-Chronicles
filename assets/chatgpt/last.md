@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* ¿Qué es Chaty?
+* Enlace Instagram y Email
 
 ## Charlas descargadas
 
@@ -93,12 +93,12 @@
 - [x] **WP Migración Límite 128MB**
 - [x] **Uso de .then() y async/await**
 - [x] **¿Qué es Chaty?**
-- [ ] Descripciones hamburguesas sitio
-- [ ] problemas con woocomerce
-- [ ] Configurar Contact Form 7
-- [ ] Personajes Arcane temporada 2
-- [ ] Background Overlay en BeTheme
-- [ ] Enlace Instagram y Email
+- [x] **Descripciones hamburguesas sitio**
+- [x] **problemas con woocomerce**
+- [x] **Configurar Contact Form 7**
+- [x] **Personajes Arcane temporada 2**
+- [x] **Background Overlay en BeTheme**
+- [x] **Enlace Instagram y Email**
 - [ ] Promedio duración canciones SQL
 - [ ] Productos Elementor en WP
 - [ ] Error en rango fechas
