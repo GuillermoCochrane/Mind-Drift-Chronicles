@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Migrar WordPress a hosting
+* Scroll a nueva clase
 
 ## Charlas descargadas listas
 
@@ -105,15 +105,15 @@
 - [x] **Uso de Facebook con accesibilidad**
 - [x] **Héroe con Summon Boat**
 - [x] **Migrar WordPress a hosting**
+- [x] **Diseño de bases de datos**
+- [x] **Diferencia entre MySQL y SQL**
+- [x] **Corregir loader React**
+- [x] **Gestión de Acciones PAC**
+- [x] **Extracción de texto imágenes**
+- [x] **Scroll a nueva clase**
 
 ## Pendientes
 
-- [ ] Diseño de bases de datos
-- [ ] Diferencia entre MySQL y SQL
-- [ ] Corregir loader React
-- [ ] Gestión de Acciones PAC
-- [ ] Extracción de texto imágenes
-- [ ] Scroll a nueva clase
 - [ ] Identificación de tipografías en ima
 - [ ] Variedad de hamburguesa Los Áng
 - [ ] Ricos argentinos en Uruguay
