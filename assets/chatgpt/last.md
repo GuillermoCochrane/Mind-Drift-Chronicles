@@ -2,9 +2,9 @@
 
 ## Ultimo backup
 
-* Enlace Instagram y Email
+* Migrar WordPress a hosting
 
-## Charlas descargadas
+## Charlas descargadas listas
 
 - [x] **receta chipa**
 - [x] **Comparar planificaciones de IA**
@@ -99,12 +99,15 @@
 - [x] **Personajes Arcane temporada 2**
 - [x] **Background Overlay en BeTheme**
 - [x] **Enlace Instagram y Email**
-- [ ] Promedio duración canciones SQL
-- [ ] Productos Elementor en WP
-- [ ] Error en rango fechas
-- [ ] Uso de Facebook con accesibilidad
-- [ ] Héroe con Summon Boat
-- [ ] Migrar WordPress a hosting
+- [x] **Promedio duracxón canciones SQL**
+- [x] **Productos Elementor en WP**
+- [x] **Error en rango fechas**
+- [x] **Uso de Facebook con accesibilidad**
+- [x] **Héroe con Summon Boat**
+- [x] **Migrar WordPress a hosting**
+
+## Pendientes
+
 - [ ] Diseño de bases de datos
 - [ ] Diferencia entre MySQL y SQL
 - [ ] Corregir loader React
