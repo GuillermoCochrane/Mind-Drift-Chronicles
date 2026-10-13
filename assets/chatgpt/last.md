@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Scroll a nueva clase
+* Plugins en WordPress 101
 
 ## Charlas descargadas listas
 
@@ -114,12 +114,12 @@
 
 ## Pendientes
 
-- [ ] Identificación de tipografías en ima
-- [ ] Variedad de hamburguesa Los Áng
-- [ ] Ricos argentinos en Uruguay
-- [ ] Lista de colores en Python
-- [ ] Herramientas IA eliminar elemento
-- [ ] Plugins en WordPress 101
+- [x] **Identificación de tipografías en ima**
+- [x] **Variedad de hamburguesa Los Áng**
+- [x] **Ricos argentinos en Uruguay**
+- [x] **Lista de colores en Python**
+- [x] **Herramientas IA eliminar elemento**
+- [x] **Plugins en WordPress 101**
 - [ ] Atahualpa Burgers Descripción We
 - [ ] Componente Input en React
 - [ ] Etiqueta video en HTML
