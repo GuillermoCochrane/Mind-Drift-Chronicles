@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Plugins en WordPress 101
+* Cambio de extensiones a jpg
 
 ## Charlas descargadas listas
 
@@ -111,21 +111,21 @@
 - [x] **Gestión de Acciones PAC**
 - [x] **Extracción de texto imágenes**
 - [x] **Scroll a nueva clase**
-
-## Pendientes
-
 - [x] **Identificación de tipografías en ima**
 - [x] **Variedad de hamburguesa Los Áng**
 - [x] **Ricos argentinos en Uruguay**
 - [x] **Lista de colores en Python**
 - [x] **Herramientas IA eliminar elemento**
 - [x] **Plugins en WordPress 101**
-- [ ] Atahualpa Burgers Descripción We
-- [ ] Componente Input en React
-- [ ] Etiqueta video en HTML
-- [ ] Descripción de archivo de IA
-- [ ] Actualizar Node desde terminal
-- [ ] Cambio de extensiones a jpg
+- [x] **Atahualpa Burgers Descripción We**
+- [x] **Componente Input en React**
+- [x] **Etiqueta video en HTML**
+- [x] **Descripción de archivo de IA**
+- [x] **Actualizar Node desde terminal**
+- [x] **Cambio de extensiones a jpg**
+
+## Pendientes
+
 - [ ] Error 0x80300024 Solución
 - [ ] Proceso de jugos en polvo
 - [ ] Uso de etiqueta dialog
