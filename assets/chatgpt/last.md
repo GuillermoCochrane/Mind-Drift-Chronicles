@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Cambio de extensiones a jpg
+* Locaciones His Dark Materials
 
 ## Charlas descargadas listas
 
@@ -123,15 +123,15 @@
 - [x] **Descripción de archivo de IA**
 - [x] **Actualizar Node desde terminal**
 - [x] **Cambio de extensiones a jpg**
+- [x] **Error 0x80300024 Solución**
+- [x] **Proceso de jugos en polvo**
+- [x] **Uso de etiqueta dialog**
+- [x] **Teclas poderes en M.U.G.E.N**
+- [x] **Descarga archivo HTML**
+- [x] **Locaciones His Dark Materials**
 
 ## Pendientes
 
-- [ ] Error 0x80300024 Solución
-- [ ] Proceso de jugos en polvo
-- [ ] Uso de etiqueta dialog
-- [ ] Teclas poderes en M.U.G.E.N
-- [ ] Descarga archivo HTML
-- [ ] Locaciones His Dark Materials
 - [ ] Experimentos en Bolvangar
 - [ ] Prohibición de viajar Corea
 - [ ] Cantidad de tickets capicúa
