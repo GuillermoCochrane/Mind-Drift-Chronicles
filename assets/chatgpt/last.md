@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Locaciones His Dark Materials
+* Tiempo para liberar dominio
 
 ## Charlas descargadas listas
 
@@ -129,15 +129,14 @@
 - [x] **Teclas poderes en M.U.G.E.N**
 - [x] **Descarga archivo HTML**
 - [x] **Locaciones His Dark Materials**
+- [x] **Experimentos en Bolvangar**
+- [x] **Prohibición de viajar Corea**
+- [x] **Cantidad de tickets capicúa**
+- [x] **Problema arranque Windows 10**
+- [x] **Markdown Image Issue**
+- [x] **Tiempo para liberar dominio**
 
 ## Pendientes
-
-- [ ] Experimentos en Bolvangar
-- [ ] Prohibición de viajar Corea
-- [ ] Cantidad de tickets capicúa
-- [ ] Problema arranque Windows 10
-- [ ] Markdown Image Issue
-- [ ] Tiempo para liberar dominio
 - [ ] Cerrar Detalles HTML
 - [ ] Error en git push
 - [ ] Method Name Suggestions
