@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Tiempo para liberar dominio
+* Explicación componente NewList
 
 ## Charlas descargadas listas
 
@@ -135,15 +135,14 @@
 - [x] **Problema arranque Windows 10**
 - [x] **Markdown Image Issue**
 - [x] **Tiempo para liberar dominio**
+- [x] Cerrar Detalles HTML
+- [x] Error en git push
+- [x] Method Name Suggestions
+- [x] Mostrar espacio en blanco
+- [x] Explicación del método required
+- [x] Explicación componente NewList
 
 ## Pendientes
-- [ ] Cerrar Detalles HTML
-- [ ] Error en git push
-- [ ] Method Name Suggestions
-- [ ] Mostrar espacio en blanco
-- [ ] Explicación del método required
-- [ ] Explicación componente NewList
-- [ ] Explicación componente NewList
 - [ ] ¿Qué es un responsive?
 - [ ] Render Plan Overview
 - [ ] Explicación del Componente React
