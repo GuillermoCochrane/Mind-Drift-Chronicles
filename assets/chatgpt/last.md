@@ -135,12 +135,12 @@
 - [x] **Problema arranque Windows 10**
 - [x] **Markdown Image Issue**
 - [x] **Tiempo para liberar dominio**
-- [x] Cerrar Detalles HTML
-- [x] Error en git push
-- [x] Method Name Suggestions
-- [x] Mostrar espacio en blanco
-- [x] Explicación del método required
-- [x] Explicación componente NewList
+- [x] **Cerrar Detalles HTML**
+- [x] **Error en git push**
+- [x] **Method Name Suggestions**
+- [x] **Mostrar espacio en blanco**
+- [x] **Explicación del método required**
+- [x] **Explicación componente NewList**
 
 ## Pendientes
 - [ ] ¿Qué es un responsive?
