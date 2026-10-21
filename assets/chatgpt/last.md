@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Explicación componente NewList
+* Evitar herencia CSS
 
 ## Charlas descargadas listas
 
@@ -141,14 +141,14 @@
 - [x] **Mostrar espacio en blanco**
 - [x] **Explicación del método required**
 - [x] **Explicación componente NewList**
+- [x] **¿Qué es un responsive?**
+- [x] **Render Plan Overview**
+- [x] **Explicación del Componente React**
+- [x] **Validaciones en Componentes**
+- [x] **React Component Overview**
+- [x] **Evitar herencia CSS**
 
 ## Pendientes
-- [ ] ¿Qué es un responsive?
-- [ ] Render Plan Overview
-- [ ] Explicación del Componente React
-- [ ] Validaciones en Componentes
-- [ ] React Component Overview
-- [ ] Evitar herencia CSS
 - [ ] Estructura carpeta public
 - [ ] Formulario Validación JavaScript
 - [ ] Frontend-Backend Field Mismatch
