@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Frontend-Backend Field Mismatch
+* Creación Componente NewList
 
 ## Charlas descargadas listas
 
@@ -152,12 +152,12 @@
 - [x] **Estructura carpeta public**
 - [x] **Formulario Validación JavaScript**
 - [x] **Frontend-Backend Field Mismatch**
-- [x] Configuración Middleware Multer
-- [ ] Modificar o Crear Componente
-- [ ] Agregar archivo en formulario
-- [ ] Explicación módulo random
-- [ ] Utilidades y Mensaje Commit
-- [ ] Creación Componente NewList
+- [x] **Configuración Middleware Multer**
+- [x] **Modificar o Crear Componente**
+- [x] **Agregar archivo en formulario**
+- [x] **Explicación módulo random**
+- [x] **Utilidades y Mensaje Commit**
+- [x] **Creación Componente NewList**
 - [ ] Estructura de carpetas React
 - [ ] Validación de Campo Nombre
 - [ ] Crear acceso directo npm
