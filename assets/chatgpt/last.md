@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Evitar herencia CSS
+* Frontend-Backend Field Mismatch
 
 ## Charlas descargadas listas
 
@@ -149,10 +149,10 @@
 - [x] **Evitar herencia CSS**
 
 ## Pendientes
-- [ ] Estructura carpeta public
-- [ ] Formulario Validación JavaScript
-- [ ] Frontend-Backend Field Mismatch
-- [ ] Configuración Middleware Multer
+- [x] **Estructura carpeta public**
+- [x] **Formulario Validación JavaScript**
+- [x] **Frontend-Backend Field Mismatch**
+- [x] Configuración Middleware Multer
 - [ ] Modificar o Crear Componente
 - [ ] Agregar archivo en formulario
 - [ ] Explicación módulo random
