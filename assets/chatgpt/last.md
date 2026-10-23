@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Razón del nombre The Bachelor
+* Integrar Cron en Express
 
 ## Charlas descargadas listas
 
@@ -162,12 +162,12 @@
 - [x] **Componentes de Formulario React**
 - [x] **Gitignore Ignoring .md Files**
 - [x] **Razón del nombre The Bachelor**
+- [x] **Explicación del Módulo**
+- [x] **Explicación de código JavaScript**
+- [x] **Explicación del Componente React**
+- [x] **Integrar Cron en Express**
 
 ## Pendientes
-- [x] Explicación del Módulo
-- [ ] Explicación de código JavaScript
-- [ ] Explicación del Componente React
-- [ ] Integrar Cron en Express
 - [ ] Eliminar aplicación Clever Cloud
 - [ ] Persistencia de datos Vercel
 - [ ] Error de propiedad undefined
