@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Creación Componente NewList
+* Razón del nombre The Bachelor
 
 ## Charlas descargadas listas
 
@@ -147,8 +147,6 @@
 - [x] **Validaciones en Componentes**
 - [x] **React Component Overview**
 - [x] **Evitar herencia CSS**
-
-## Pendientes
 - [x] **Estructura carpeta public**
 - [x] **Formulario Validación JavaScript**
 - [x] **Frontend-Backend Field Mismatch**
@@ -158,13 +156,15 @@
 - [x] **Explicación módulo random**
 - [x] **Utilidades y Mensaje Commit**
 - [x] **Creación Componente NewList**
-- [ ] Estructura de carpetas React
-- [ ] Validación de Campo Nombre
-- [ ] Crear acceso directo npm
-- [ ] Componentes de Formulario React
-- [ ] Gitignore Ignoring .md Files
-- [ ] Razón del nombre The Bachelor
-- [ ] Explicación del Módulo
+- [x] **Estructura de carpetas React**
+- [x] **Validación de Campo Nombre**
+- [x] **Crear acceso directo npm**
+- [x] **Componentes de Formulario React**
+- [x] **Gitignore Ignoring .md Files**
+- [x] **Razón del nombre The Bachelor**
+
+## Pendientes
+- [x] Explicación del Módulo
 - [ ] Explicación de código JavaScript
 - [ ] Explicación del Componente React
 - [ ] Integrar Cron en Express
