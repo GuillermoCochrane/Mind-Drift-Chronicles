@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* React Form Validation Explained
+* Verificar caracteres especiales Python
 
 ## Charlas descargadas listas
 
@@ -171,14 +171,14 @@
 - [x] **Error de propiedad undefined**
 - [x] **Eliminar espacios en JS**
 - [x] **React Form Validation Explained**
+- [x] **Archivo información análisis**
+- [x] **Explicación de código React**
+- [x] **Formulario de Nueva Clase**
+- [x] **Contenido del archivo JSON**
+- [x] **Optimizar Validación de Títulos**
+- [x] **Verificar caracteres especiales Pyth**
 
 ## Pendientes
-- [ ] Archivo información análisis
-- [ ] Explicación de código React
-- [ ] Formulario de Nueva Clase
-- [ ] Contenido del archivo JSON
-- [ ] Optimizar Validación de Títulos
-- [ ] Verificar caracteres especiales Pyth
 - [ ] Explicación de Componente React
 - [ ] Formulario para nueva clase
 - [ ] React Component Functionality
