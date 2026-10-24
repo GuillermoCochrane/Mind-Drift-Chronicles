@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Integrar Cron en Express
+* React Form Validation Explained
 
 ## Charlas descargadas listas
 
@@ -166,13 +166,13 @@
 - [x] **Explicación de código JavaScript**
 - [x] **Explicación del Componente React**
 - [x] **Integrar Cron en Express**
+- [x] **Eliminar aplicación Clever Cloud**
+- [x] **Persistencia de datos Vercel**
+- [x] **Error de propiedad undefined**
+- [x] **Eliminar espacios en JS**
+- [x] **React Form Validation Explained**
 
 ## Pendientes
-- [ ] Eliminar aplicación Clever Cloud
-- [ ] Persistencia de datos Vercel
-- [ ] Error de propiedad undefined
-- [ ] Eliminar espacios en JS
-- [ ] React Form Validation Explained
 - [ ] Archivo información análisis
 - [ ] Explicación de código React
 - [ ] Formulario de Nueva Clase
