@@ -179,12 +179,12 @@
 - [x] **Verificar caracteres especiales Pyth**
 
 ## Pendientes
-- [ ] Explicación de Componente React
-- [ ] Formulario para nueva clase
-- [ ] React Component Functionality
-- [ ] React Hook Usage Error
-- [ ] Voldemort Nos Quiere Separados
-- [ ] Frontend Data Storage
+- [x] Explicación de Componente React
+- [x] Formulario para nueva clase
+- [x] **React Component Functionality**
+- [x] React Hook Usage Error
+- [x] Voldemort Nos Quiere Separados
+- [x] Frontend Data Storage
 - [ ] Título Técnico Terciario
 - [ ] Estilo CSS React
 - [ ] Agregar personaje a MUGEN
