@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Verificar caracteres especiales Python
+* Seleccion aleatoria de alumnos
 
 ## Charlas descargadas listas
 
@@ -177,19 +177,19 @@
 - [x] **Contenido del archivo JSON**
 - [x] **Optimizar Validación de Títulos**
 - [x] **Verificar caracteres especiales Pyth**
+- [x] **Explicación de Componente React**
+- [x] **Formulario para nueva clase**
+- [x] **React Component Functionality**
+- [x] **React Hook Usage Error**
+- [x] **Voldemort Nos Quiere Separados**
+- [x] **Frontend Data Storage**
+- [x] **Título Técnico Terciario**
+- [x] **Estilo CSS React**
+- [x] **Agregar personaje a MUGEN**
+- [x] **Historia de la diáspora**
+- [x] **Seleccion aleatoria de alumnos**
 
 ## Pendientes
-- [x] Explicación de Componente React
-- [x] Formulario para nueva clase
-- [x] **React Component Functionality**
-- [x] React Hook Usage Error
-- [x] Voldemort Nos Quiere Separados
-- [x] Frontend Data Storage
-- [ ] Título Técnico Terciario
-- [ ] Estilo CSS React
-- [ ] Agregar personaje a MUGEN
-- [ ] Historia de la diáspora
-- [ ] Seleccion aleatoria de alumnos
 - [ ] Swagger API Documentation Tools
 - [ ] Problema reinicio infinito Vite
 - [ ] Padre puede ver juego
