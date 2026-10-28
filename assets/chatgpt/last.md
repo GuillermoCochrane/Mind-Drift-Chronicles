@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Seleccion aleatoria de alumnos
+* Ejecución condicional por entorno
 
 ## Charlas descargadas listas
 
@@ -188,14 +188,14 @@
 - [x] **Agregar personaje a MUGEN**
 - [x] **Historia de la diáspora**
 - [x] **Seleccion aleatoria de alumnos**
+- [x] **Swagger API Documentation Tools**
+- [x] **Problema reinicio infinito Vite**
+- [x] **Padre puede ver juego**
+- [x] **Pico CSS Framework**
+- [x] **Despliegue de API en Vercel**
+- [x] **Ejecución condicional por entorno**
 
 ## Pendientes
-- [ ] Swagger API Documentation Tools
-- [ ] Problema reinicio infinito Vite
-- [ ] Padre puede ver juego
-- [ ] Pico CSS Framework
-- [ ] Despliegue de API en Vercel
-- [ ] Ejecución condicional por entorno
 - [ ] Load Course Index Dynamically
 - [ ] Fix CORS Error Solution
 - [ ] Ignorar archivo test.js
