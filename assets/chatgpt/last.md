@@ -194,26 +194,26 @@
 - [x] **Pico CSS Framework**
 - [x] **Despliegue de API en Vercel**
 - [x] **Ejecución condicional por entorno**
-
-## Pendientes
 - [x] **Load Course Index Dynamically**
 - [x] **Fix CORS Error Solution**
 - [x] **Ignorar archivo test.js**
 - [x] **Mejorar calidad del logo**
 - [x] **Configurar propiedad box-shadow**
 - [x] **Bucles anidados ejemplificados**
-- [ ] Selecting Figure with Img
-- [ ] Incluir imagen en Markdown
-- [ ] Determinar tipo de dato
-- [ ] Convertir texto a mayúsculas
-- [ ] Dia y vacaciones determinan asiste
-- [ ] Install Supermaven Extension Perm
-- [ ] React Trivia Form Component
-- [ ] Walter White's Phone Number
-- [ ] Resolve Circular Import Error
-- [ ] Ejecutar programas en Python
-- [ ] Python Primer Program Print
-- [ ] Embed YouTube Story on Website
+- [x] **Selecting Figure with Img**
+- [x] **Incluir imagen en Markdown**
+- [x] **Determinar tipo de dato**
+- [x] **Convertir texto a mayúsculas**
+- [x] **Dia y vacaciones determinan asiste**
+- [x] **Install Supermaven Extension Perm**
+- [x] **React Trivia Form Component**
+- [x] **Walter White's Phone Number**
+- [x] **Resolve Circular Import Error**
+- [x] **Ejecutar programas en Python**
+- [x] **Python Primer Program Print**
+
+## Pendientes
+- [x] Embed YouTube Story on Website
 - [ ] Introducción a Python Fundament
 - [ ] Componente NabBarIndex Explica
 - [ ] Extract Course and Class IDs
