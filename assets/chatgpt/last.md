@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Ejecución condicional por entorno
+* Bucles anidados ejemplificados
 
 ## Charlas descargadas listas
 
@@ -196,12 +196,12 @@
 - [x] **Ejecución condicional por entorno**
 
 ## Pendientes
-- [ ] Load Course Index Dynamically
-- [ ] Fix CORS Error Solution
-- [ ] Ignorar archivo test.js
-- [ ] Mejorar calidad del logo
-- [ ] Configurar propiedad box-shadow
-- [ ] Bucles anidados ejemplificados
+- [x] **Load Course Index Dynamically**
+- [x] **Fix CORS Error Solution**
+- [x] **Ignorar archivo test.js**
+- [x] **Mejorar calidad del logo**
+- [x] **Configurar propiedad box-shadow**
+- [x] **Bucles anidados ejemplificados**
 - [ ] Selecting Figure with Img
 - [ ] Incluir imagen en Markdown
 - [ ] Determinar tipo de dato
