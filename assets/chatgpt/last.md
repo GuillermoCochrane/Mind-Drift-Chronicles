@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Bucles anidados ejemplificados
+* Componente NabBarIndex Explica
 
 ## Charlas descargadas listas
 
@@ -211,11 +211,11 @@
 - [x] **Resolve Circular Import Error**
 - [x] **Ejecutar programas en Python**
 - [x] **Python Primer Program Print**
+- [x] **Embed YouTube Story on Website**
+- [x] **Introducción a Python Fundament**
+- [x] **Componente NabBarIndex Explica**
 
 ## Pendientes
-- [x] Embed YouTube Story on Website
-- [ ] Introducción a Python Fundament
-- [ ] Componente NabBarIndex Explica
 - [ ] Extract Course and Class IDs
 - [ ] Diseño básico con React
 - [ ] Enrutamiento react simplificado
