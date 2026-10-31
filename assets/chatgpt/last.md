@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Componente NabBarIndex Explica
+* Class and Topic Filtering
 
 ## Charlas descargadas listas
 
@@ -214,17 +214,17 @@
 - [x] **Embed YouTube Story on Website**
 - [x] **Introducción a Python Fundament**
 - [x] **Componente NabBarIndex Explica**
+- [x] **Extract Course and Class IDs**
+- [x] **Diseño básico con React**
+- [x] **Enrutamiento react simplificado**
+- [x] **Router React Básico Configuración**
+- [x] **Excipientes en pastillas.**
+- [x] **Error Controlador SAPI5**
+- [x] **Details y summary en HTML.**
+- [x] **Error 404: Recurso no encontrado**
+- [x] **Class and Topic Filtering**
 
 ## Pendientes
-- [ ] Extract Course and Class IDs
-- [ ] Diseño básico con React
-- [ ] Enrutamiento react simplificado
-- [ ] Router React Básico Configuración
-- [ ] Excipientes en pastillas.
-- [ ] Error Controlador SAPI5
-- [ ] Details y summary en HTML.
-- [ ] Error 404: Recurso no encontrado
-- [ ] Class and Topic Filtering
 - [ ] Diseño de plataforma educativa
 - [ ] Rutas Parametrizadas en React
 - [ ] Contenido Adulto Infringe Políticas
