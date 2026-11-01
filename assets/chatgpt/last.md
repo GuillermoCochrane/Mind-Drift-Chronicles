@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Class and Topic Filtering
+* Adivina el Número
 
 ## Charlas descargadas listas
 
@@ -223,16 +223,16 @@
 - [x] **Details y summary en HTML.**
 - [x] **Error 404: Recurso no encontrado**
 - [x] **Class and Topic Filtering**
+- [x] **Diseño de plataforma educativa**
+- [x] **Rutas Parametrizadas en React**
+- [x] **Contenido Adulto Infringe Políticas**
+- [x] **Diseño de logo requerido.**
+- [x] **Expresión algebraica simplificada**
+- [x] **Cosas en la mesa**
+- [x] **Redes Neuronales Básicas**
+- [x] **Adivina el Número**
 
 ## Pendientes
-- [ ] Diseño de plataforma educativa
-- [ ] Rutas Parametrizadas en React
-- [ ] Contenido Adulto Infringe Políticas
-- [ ] Diseño de logo requerido.
-- [ ] Expresión algebraica simplificada
-- [ ] Cosas en la mesa
-- [ ] Redes Neuronales Básicas
-- [ ] Adivina el Número
 - [ ] Modificar componente ULTag.
 - [ ] Integración de código.
 - [ ] Reestructura JSX para corregir el e
