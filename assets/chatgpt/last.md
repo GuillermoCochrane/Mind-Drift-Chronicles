@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Adivina el Número
+* Modificar componente ULTag.
 
 ## Charlas descargadas listas
 
@@ -231,9 +231,9 @@
 - [x] **Cosas en la mesa**
 - [x] **Redes Neuronales Básicas**
 - [x] **Adivina el Número**
+- [x] **Modificar componente ULTag.**
 
 ## Pendientes
-- [ ] Modificar componente ULTag.
 - [ ] Integración de código.
 - [ ] Reestructura JSX para corregir el e
 - [ ] Nombres para repositorio.
