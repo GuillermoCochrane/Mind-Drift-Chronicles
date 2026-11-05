@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Modificar componente ULTag.
+* Nombres para repositorio.
 
 ## Charlas descargadas listas
 
@@ -232,11 +232,11 @@
 - [x] **Redes Neuronales Básicas**
 - [x] **Adivina el Número**
 - [x] **Modificar componente ULTag.**
+- [x] **Integración de código.**
+- [x] **Reestructura JSX para corregir el e**
+- [x] **Nombres para repositorio.**
 
 ## Pendientes
-- [ ] Integración de código.
-- [ ] Reestructura JSX para corregir el e
-- [ ] Nombres para repositorio.
 - [ ] Buscar películas en OMDB
 - [ ] Buscar películas con mejoras
 - [ ] React Router Multiple Sections
