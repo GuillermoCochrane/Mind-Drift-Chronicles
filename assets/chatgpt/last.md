@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Nombres para repositorio.
+* Props en Vite React
 
 ## Charlas descargadas listas
 
@@ -235,14 +235,14 @@
 - [x] **Integración de código.**
 - [x] **Reestructura JSX para corregir el e**
 - [x] **Nombres para repositorio.**
+- [x] **Buscar películas en OMDB**
+- [x] **Buscar películas con mejoras**
+- [x] **React Router Multiple Sections**
+- [x] **Modificar componente MovieRow**
+- [x] **Solving CORS Issue**
+- [x] **Props en Vite React.**
 
 ## Pendientes
-- [ ] Buscar películas en OMDB
-- [ ] Buscar películas con mejoras
-- [ ] React Router Multiple Sections
-- [ ] Modificar componente MovieRow
-- [ ] Solving CORS Issue
-- [ ] Props en Vite React.
 - [ ] Corrección de estilo de React
 - [ ] React Rendering Setup Guide
 - [ ] Modelo GPT-4 utilizado
