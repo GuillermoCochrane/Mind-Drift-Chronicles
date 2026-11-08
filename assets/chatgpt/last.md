@@ -2,7 +2,7 @@
 
 ## Ultimo backup
 
-* Props en Vite React
+* Productos Categorías Estados
 
 ## Charlas descargadas listas
 
@@ -241,14 +241,14 @@
 - [x] **Modificar componente MovieRow**
 - [x] **Solving CORS Issue**
 - [x] **Props en Vite React.**
+- [x] **Corrección de estilo de React**
+- [x] **React Rendering Setup Guide**
+- [x] **Modelo GPT-4 utilizado**
+- [x] **Estirar imagen al contenedor**
+- [x] **Productos en Línea: Resumen**
+- [x] **Productos Categorías Estados**
 
 ## Pendientes
-- [ ] Corrección de estilo de React
-- [ ] React Rendering Setup Guide
-- [ ] Modelo GPT-4 utilizado
-- [ ] Estirar imagen al contenedor
-- [ ] Productos en Línea: Resumen
-- [ ] Productos Categorías Estados.
 - [ ] Efecto sombra con CSS.
 - [ ] Corrección clase icono JavaScript.
 - [ ] Git Ignora Cambios Específicos
